@@ -1,0 +1,48 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.13.2, pytest-9.0.2, pluggy-1.6.0 -- C:\Users\ASUS\AppData\Local\Programs\Python\Python313\python.exe
+cachedir: .pytest_cache
+rootdir: D:\Aegis
+plugins: anyio-4.12.1
+collecting ... collected 39 items
+
+tests/test_plan_validation.py::TestPlanValidation::test_fallback_mapping PASSED [  2%]
+tests/test_plan_validation.py::TestPlanValidation::test_missing_action_params PASSED [  5%]
+tests/test_plan_validation.py::TestPlanValidation::test_missing_summary PASSED [  7%]
+tests/test_cli_flow.py::TestCLIFlow::test_display_approval_execute_flow PASSED [ 10%]
+tests/test_llm_offline_mode.py::TestLLMOfflineMode::test_offline_fallback PASSED [ 12%]
+tests/test_db_migration.py::TestDBMigration::test_migration_run PASSED   [ 15%]
+tests/test_validator.py::TestIsActionAllowed::test_allowed_actions PASSED [ 17%]
+tests/test_validator.py::TestIsActionAllowed::test_disallowed_actions PASSED [ 20%]
+tests/test_validator.py::TestIsPathBlocked::test_blocked_windows_folder PASSED [ 23%]
+tests/test_validator.py::TestIsPathBlocked::test_blocked_subfolder PASSED [ 25%]
+tests/test_validator.py::TestIsPathBlocked::test_blocked_program_files PASSED [ 28%]
+tests/test_validator.py::TestIsPathBlocked::test_blocked_system_volume PASSED [ 30%]
+tests/test_validator.py::TestIsPathBlocked::test_safe_path PASSED        [ 33%]
+tests/test_validator.py::TestIsPathBlocked::test_empty_path PASSED       [ 35%]
+tests/test_validator.py::TestIsPathBlocked::test_case_insensitive PASSED [ 38%]
+tests/test_validator.py::TestIsPathBlocked::test_forward_slashes PASSED  [ 41%]
+tests/test_validator.py::TestIsPsCommandAllowed::test_allowed_commands PASSED [ 43%]
+tests/test_validator.py::TestIsPsCommandAllowed::test_disallowed_commands PASSED [ 46%]
+tests/test_validator.py::TestIsPsCommandAllowed::test_empty_command PASSED [ 48%]
+tests/test_validator.py::TestIsPsCommandAllowed::test_case_insensitive PASSED [ 51%]
+tests/test_validator.py::TestValidatePlan::test_valid_plan PASSED        [ 53%]
+tests/test_validator.py::TestValidatePlan::test_blocked_path PASSED      [ 56%]
+tests/test_validator.py::TestValidatePlan::test_unknown_action_type PASSED [ 58%]
+tests/test_validator.py::TestValidatePlan::test_blocked_powershell_command PASSED [ 61%]
+tests/test_validator.py::TestValidatePlan::test_allowed_powershell_command PASSED [ 64%]
+tests/test_validator.py::TestValidatePlan::test_multiple_violations PASSED [ 66%]
+tests/test_validator.py::TestValidatePlan::test_empty_plan PASSED        [ 69%]
+tests/test_memory.py::TestMemoryManager::test_db_initialization PASSED   [ 71%]
+tests/test_memory.py::TestMemoryManager::test_store_and_get_approved PASSED [ 74%]
+tests/test_memory.py::TestMemoryManager::test_store_and_get_rejected PASSED [ 76%]
+tests/test_memory.py::TestMemoryManager::test_app_usage_stats PASSED     [ 79%]
+tests/test_memory.py::TestMemoryManager::test_store_action_event PASSED  [ 82%]
+tests/test_memory.py::TestSessionMemory::test_session_lifecycle PASSED   [ 84%]
+tests/test_logger.py::TestAegisLogger::test_log_ai_plan PASSED           [ 87%]
+tests/test_logger.py::TestAegisLogger::test_log_approval PASSED          [ 89%]
+tests/test_logger.py::TestAegisLogger::test_log_execution PASSED         [ 92%]
+tests/test_logger.py::TestAegisLogger::test_log_error PASSED             [ 94%]
+tests/test_logger.py::TestAegisLogger::test_multiple_entries_appended PASSED [ 97%]
+tests/test_logger.py::TestAegisLogger::test_log_ai_plan_with_errors PASSED [100%]
+
+============================= 39 passed in 3.73s ==============================

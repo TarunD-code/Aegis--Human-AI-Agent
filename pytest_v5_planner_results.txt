@@ -1,0 +1,41 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.13.2, pytest-7.4.0, pluggy-1.6.0 -- D:\Aegis\venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: D:\Aegis
+plugins: anyio-4.12.1
+collecting ... collected 3 items
+
+tests/v5/test_planner_v5.py::TestPlannerV5::test_planner_regenerates_once FAILED [ 33%]
+tests/v5/test_planner_v5.py::TestPlannerV5::test_planner_never_regenerates_twice FAILED [ 66%]
+tests/v5/test_planner_v5.py::TestPlannerV5::test_planner_accepts_valid_immediately FAILED [100%]
+
+================================== FAILURES ===================================
+_________________ TestPlannerV5.test_planner_regenerates_once _________________
+tests\v5\test_planner_v5.py:32: in test_planner_regenerates_once
+    plan = planner.generate_plan("open notepad")
+brain\contextual_planner.py:73: in generate_plan
+    enriched_prompt = self._build_enriched_prompt(user_input, context or {}, intent_metadata)
+brain\contextual_planner.py:143: in _build_enriched_prompt
+    f"  Confidence: {intent_metadata.intent_confidence:.2f}\n"
+E   TypeError: unsupported format string passed to MagicMock.__format__
+_____________ TestPlannerV5.test_planner_never_regenerates_twice ______________
+tests\v5\test_planner_v5.py:55: in test_planner_never_regenerates_twice
+    plan = planner.generate_plan("open notepad")
+brain\contextual_planner.py:73: in generate_plan
+    enriched_prompt = self._build_enriched_prompt(user_input, context or {}, intent_metadata)
+brain\contextual_planner.py:143: in _build_enriched_prompt
+    f"  Confidence: {intent_metadata.intent_confidence:.2f}\n"
+E   TypeError: unsupported format string passed to MagicMock.__format__
+____________ TestPlannerV5.test_planner_accepts_valid_immediately _____________
+tests\v5\test_planner_v5.py:77: in test_planner_accepts_valid_immediately
+    planner.generate_plan("open notepad")
+brain\contextual_planner.py:73: in generate_plan
+    enriched_prompt = self._build_enriched_prompt(user_input, context or {}, intent_metadata)
+brain\contextual_planner.py:143: in _build_enriched_prompt
+    f"  Confidence: {intent_metadata.intent_confidence:.2f}\n"
+E   TypeError: unsupported format string passed to MagicMock.__format__
+=========================== short test summary info ===========================
+FAILED tests/v5/test_planner_v5.py::TestPlannerV5::test_planner_regenerates_once
+FAILED tests/v5/test_planner_v5.py::TestPlannerV5::test_planner_never_regenerates_twice
+FAILED tests/v5/test_planner_v5.py::TestPlannerV5::test_planner_accepts_valid_immediately
+============================== 3 failed in 2.35s ==============================

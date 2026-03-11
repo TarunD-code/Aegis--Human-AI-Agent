@@ -1,0 +1,15 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.13.2, pytest-7.4.0, pluggy-1.6.0 -- D:\Aegis\venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: D:\Aegis
+plugins: anyio-4.12.1
+collecting ... collected 6 items
+
+tests/v5/test_reliability_v5_7.py::TestReliabilityV5_7::test_command_normalization PASSED [ 16%]
+tests/v5/test_reliability_v5_7.py::TestReliabilityV5_7::test_math_evaluation_direct PASSED [ 33%]
+tests/v5/test_reliability_v5_7.py::TestReliabilityV5_7::test_planner_math_routing PASSED [ 50%]
+tests/v5/test_reliability_v5_7.py::TestReliabilityV5_7::test_app_registry_resolution PASSED [ 66%]
+tests/v5/test_reliability_v5_7.py::TestReliabilityV5_7::test_execution_retry_logic PASSED [ 83%]
+tests/v5/test_reliability_v5_7.py::TestReliabilityV5_7::test_planner_hardening_fallback PASSED [100%]
+
+============================== 6 passed in 5.13s ==============================

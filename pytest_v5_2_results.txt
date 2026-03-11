@@ -1,0 +1,38 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.13.2, pytest-7.4.0, pluggy-1.6.0 -- D:\Aegis\venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: D:\Aegis
+plugins: anyio-4.12.1
+collecting ... collected 7 items
+
+tests/v5/test_conversation_engine_v5_2.py::TestConversationEngine::test_reference_resolution_it PASSED [ 14%]
+tests/v5/test_conversation_engine_v5_2.py::TestConversationEngine::test_reference_resolution_previous_result FAILED [ 28%]
+tests/v5/test_conversation_engine_v5_2.py::TestConversationEngine::test_continuity_write_again PASSED [ 42%]
+tests/v5/test_conversation_engine_v5_2.py::TestConversationEngine::test_continuity_do_it_again PASSED [ 57%]
+tests/v5/test_conversation_engine_v5_2.py::TestConversationEngine::test_continuity_continue PASSED [ 71%]
+tests/behavioral/test_conversational_flows_v5_2.py::TestConversationalFlowsV5_2::test_multi_turn_calculation_flow FAILED [ 85%]
+tests/behavioral/test_conversational_flows_v5_2.py::TestConversationalFlowsV5_2::test_write_again_flow PASSED [100%]
+
+================================== FAILURES ===================================
+______ TestConversationEngine.test_reference_resolution_previous_result _______
+tests\v5\test_conversation_engine_v5_2.py:15: in test_reference_resolution_previous_result
+    assert expanded == "tell me more about Aegis V5"
+E   AssertionError: assert 'tell me more... the Aegis V5' == 'tell me more about Aegis V5'
+E     - tell me more about Aegis V5
+E     + tell me more about the Aegis V5
+E     ?                    ++++
+________ TestConversationalFlowsV5_2.test_multi_turn_calculation_flow _________
+tests\behavioral\test_conversational_flows_v5_2.py:33: in test_multi_turn_calculation_flow
+    assert "15 + 5" in str(mock_llm.call_args)
+E   assert '15 + 5' in 'call(\'--- CURRENT CONTEXT ---\\n[INTENT CLASSIFICATION]\\n  Primary Intents: EXECUTE\\n  Confidence: 0.95\\n  Ambiguity Score: 0.05\\n\\n[USER PROFILE]\\n  Organization Preference: <MagicMock name=\\\'mock.get_user_profile().get()\\\' id=\\\'2075378470256\\\'>\\n  Email Tone: <MagicMock name=\\\'mock.get_user_profile().get()\\\' id=\\\'2075378470256\\\'>\\n  Risk Tolerance: <MagicMock name=\\\'mock.get_user_profile().get()\\\' id=\\\'2075378470256\\\'>\\n  Frequently Rejected: \\n\\n[SESSION STATE]\\n  Last calculation result: 15\\n--- END CONTEXT ---\\n\\nUser request: add 5 with 15\\n\\n### CRITICAL SCHEMA VIOLATION DETECTED ###\\nYour previous plan violated the strict execution contract: action_0:unknown_action:calculate\\nREMEDY: Every action MUST contain required parameters in the \\\'params\\\' block.\\nExample: \\\'open_application\\\' requires {"application_name": "..."}.\\nPlease regenerate a valid JSON plan now.\', max_retries=1)'
+E    +  where 'call(\'--- CURRENT CONTEXT ---\\n[INTENT CLASSIFICATION]\\n  Primary Intents: EXECUTE\\n  Confidence: 0.95\\n  Ambiguity Score: 0.05\\n\\n[USER PROFILE]\\n  Organization Preference: <MagicMock name=\\\'mock.get_user_profile().get()\\\' id=\\\'2075378470256\\\'>\\n  Email Tone: <MagicMock name=\\\'mock.get_user_profile().get()\\\' id=\\\'2075378470256\\\'>\\n  Risk Tolerance: <MagicMock name=\\\'mock.get_user_profile().get()\\\' id=\\\'2075378470256\\\'>\\n  Frequently Rejected: \\n\\n[SESSION STATE]\\n  Last calculation result: 15\\n--- END CONTEXT ---\\n\\nUser request: add 5 with 15\\n\\n### CRITICAL SCHEMA VIOLATION DETECTED ###\\nYour previous plan violated the strict execution contract: action_0:unknown_action:calculate\\nREMEDY: Every action MUST contain required parameters in the \\\'params\\\' block.\\nExample: \\\'open_application\\\' requires {"application_name": "..."}.\\nPlease regenerate a valid JSON plan now.\', max_retries=1)' = str(call('--- CURRENT CONTEXT ---\n[INTENT CLASSIFICATION]\n  Primary Intents: EXECUTE\n  Confidence: 0.95\n  Ambiguity Score: 0.05\n\n[USER PROFILE]\n  Organization Preference: <MagicMock name=\'mock.get_user_profile().get()\' id=\'2075378470256\'>\n  Email Tone: <MagicMock name=\'mock.get_user_profile().get()\' id=\'2075378470256\'>\n  Risk Tolerance: <MagicMock name=\'mock.get_user_profile().get()\' id=\'2075378470256\'>\n  Frequently Rejected: \n\n[SESSION STATE]\n  Last calculation result: 15\n--- END CONTEXT ---\n\nUser request: add 5 with 15\n\n### CRITICAL SCHEMA VIOLATION DETECTED ###\nYour previous plan violated the strict execution contract: action_0:unknown_action:calculate\nREMEDY: Every action MUST contain required parameters in the \'params\' block.\nExample: \'open_application\' requires {"application_name": "..."}.\nPlease regenerate a valid JSON plan now.', max_retries=1))
+E    +    where call('--- CURRENT CONTEXT ---\n[INTENT CLASSIFICATION]\n  Primary Intents: EXECUTE\n  Confidence: 0.95\n  Ambiguity Score: 0.05\n\n[USER PROFILE]\n  Organization Preference: <MagicMock name=\'mock.get_user_profile().get()\' id=\'2075378470256\'>\n  Email Tone: <MagicMock name=\'mock.get_user_profile().get()\' id=\'2075378470256\'>\n  Risk Tolerance: <MagicMock name=\'mock.get_user_profile().get()\' id=\'2075378470256\'>\n  Frequently Rejected: \n\n[SESSION STATE]\n  Last calculation result: 15\n--- END CONTEXT ---\n\nUser request: add 5 with 15\n\n### CRITICAL SCHEMA VIOLATION DETECTED ###\nYour previous plan violated the strict execution contract: action_0:unknown_action:calculate\nREMEDY: Every action MUST contain required parameters in the \'params\' block.\nExample: \'open_application\' requires {"application_name": "..."}.\nPlease regenerate a valid JSON plan now.', max_retries=1) = <MagicMock name='generate_plan' id='2075377673152'>.call_args
+------------------------------ Captured log call ------------------------------
+WARNING  brain.plan_validator:plan_validator.py:68 Plan structure validation failed: ['action_0:unknown_action:calculate']
+WARNING  brain.contextual_planner:contextual_planner.py:98 [plan_1772959192] Attempt 1 validation failed: action_0:unknown_action:calculate. Regenerating...
+WARNING  brain.plan_validator:plan_validator.py:68 Plan structure validation failed: ['action_0:unknown_action:calculate']
+ERROR    brain.contextual_planner:contextual_planner.py:114 [plan_1772959192] Attempt 2 validation failed: action_0:unknown_action:calculate. Falling back to safe response.
+=========================== short test summary info ===========================
+FAILED tests/v5/test_conversation_engine_v5_2.py::TestConversationEngine::test_reference_resolution_previous_result
+FAILED tests/behavioral/test_conversational_flows_v5_2.py::TestConversationalFlowsV5_2::test_multi_turn_calculation_flow
+========================= 2 failed, 5 passed in 2.98s =========================

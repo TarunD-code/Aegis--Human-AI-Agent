@@ -1,0 +1,11 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.13.2, pytest-7.4.0, pluggy-1.6.0 -- D:\Aegis\venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: D:\Aegis
+plugins: anyio-4.12.1
+collecting ... collected 2 items
+
+tests/behavioral/test_context_aware_planning_v5_5.py::TestContextAwarePlanningV5_5::test_add_5_with_it_flow PASSED [ 50%]
+tests/behavioral/test_context_aware_planning_v5_5.py::TestContextAwarePlanningV5_5::test_write_again_flow_context_aware PASSED [100%]
+
+============================== 2 passed in 2.61s ==============================

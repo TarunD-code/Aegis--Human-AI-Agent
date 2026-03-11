@@ -1,0 +1,11 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.13.2, pytest-7.4.0, pluggy-1.6.0 -- D:\Aegis\venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: D:\Aegis
+plugins: anyio-4.12.1
+collecting ... collected 2 items
+
+tests/v5/test_typing_verification_v5_1.py::TestTypingVerificationV5_1::test_type_text_verifies_window_pass PASSED [ 50%]
+tests/v5/test_typing_verification_v5_1.py::TestTypingVerificationV5_1::test_type_text_fails_after_retry PASSED [100%]
+
+============================== 2 passed in 2.61s ==============================

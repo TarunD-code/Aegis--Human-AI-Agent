@@ -1,0 +1,10 @@
+{
+    "launch": "open",
+    "start": "open",
+    "run": "open",
+    "execute": "open",
+    "browse": "open chrome",
+    "search": "open chrome and search",
+    "play": "play",
+    "calculate": "compute"
+}

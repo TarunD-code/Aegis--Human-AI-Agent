@@ -1,0 +1,26 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.13.2, pytest-7.4.0, pluggy-1.6.0 -- D:\Aegis\venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: D:\Aegis
+plugins: anyio-4.12.1
+collecting ... collected 3 items
+
+tests/v5/test_planner_v5.py::TestPlannerV5::test_planner_regenerates_once PASSED [ 33%]
+tests/v5/test_planner_v5.py::TestPlannerV5::test_planner_never_regenerates_twice FAILED [ 66%]
+tests/v5/test_planner_v5.py::TestPlannerV5::test_planner_accepts_valid_immediately PASSED [100%]
+
+================================== FAILURES ===================================
+_____________ TestPlannerV5.test_planner_never_regenerates_twice ______________
+tests\v5\test_planner_v5.py:65: in test_planner_never_regenerates_twice
+    plan = planner.generate_plan("open notepad")
+brain\contextual_planner.py:107: in generate_plan
+    actions=[Action(
+E   NameError: name 'Action' is not defined
+------------------------------ Captured log call ------------------------------
+WARNING  brain.plan_validator:plan_validator.py:68 Plan structure validation failed: ['action_0:missing_parameter:open_application:application_name']
+WARNING  brain.contextual_planner:contextual_planner.py:87 [plan_1772694698] Attempt 1 validation failed: action_0:missing_parameter:open_application:application_name. Regenerating...
+WARNING  brain.plan_validator:plan_validator.py:68 Plan structure validation failed: ['action_0:missing_parameter:open_application:application_name']
+ERROR    brain.contextual_planner:contextual_planner.py:103 [plan_1772694698] Attempt 2 validation failed: action_0:missing_parameter:open_application:application_name. Falling back to safe response.
+=========================== short test summary info ===========================
+FAILED tests/v5/test_planner_v5.py::TestPlannerV5::test_planner_never_regenerates_twice
+========================= 1 failed, 2 passed in 2.02s =========================

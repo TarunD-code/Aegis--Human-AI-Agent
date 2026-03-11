@@ -1,0 +1,128 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.13.2, pytest-9.0.2, pluggy-1.6.0 -- C:\Users\ASUS\AppData\Local\Programs\Python\Python313\python.exe
+cachedir: .pytest_cache
+rootdir: D:\Aegis
+plugins: anyio-4.12.1
+collecting ... collected 41 items
+
+tests/test_plan_validation.py::TestPlanValidation::test_fallback_mapping PASSED [  2%]
+tests/test_plan_validation.py::TestPlanValidation::test_missing_action_params PASSED [  4%]
+tests/test_plan_validation.py::TestPlanValidation::test_missing_summary PASSED [  7%]
+tests/test_cli_flow.py::TestCLIFlow::test_display_approval_execute_flow PASSED [  9%]
+tests/test_llm_offline_mode.py::TestLLMOfflineMode::test_offline_fallback PASSED [ 12%]
+tests/test_db_migration.py::TestDBMigration::test_migration_run PASSED   [ 14%]
+tests/test_validator.py::TestIsActionAllowed::test_allowed_actions PASSED [ 17%]
+tests/test_validator.py::TestIsActionAllowed::test_disallowed_actions PASSED [ 19%]
+tests/test_validator.py::TestIsPathBlocked::test_blocked_windows_folder PASSED [ 21%]
+tests/test_validator.py::TestIsPathBlocked::test_blocked_subfolder PASSED [ 24%]
+tests/test_validator.py::TestIsPathBlocked::test_blocked_program_files PASSED [ 26%]
+tests/test_validator.py::TestIsPathBlocked::test_blocked_system_volume PASSED [ 29%]
+tests/test_validator.py::TestIsPathBlocked::test_safe_path PASSED        [ 31%]
+tests/test_validator.py::TestIsPathBlocked::test_empty_path PASSED       [ 34%]
+tests/test_validator.py::TestIsPathBlocked::test_case_insensitive PASSED [ 36%]
+tests/test_validator.py::TestIsPathBlocked::test_forward_slashes PASSED  [ 39%]
+tests/test_validator.py::TestIsPsCommandAllowed::test_allowed_commands PASSED [ 41%]
+tests/test_validator.py::TestIsPsCommandAllowed::test_disallowed_commands PASSED [ 43%]
+tests/test_validator.py::TestIsPsCommandAllowed::test_empty_command PASSED [ 46%]
+tests/test_validator.py::TestIsPsCommandAllowed::test_case_insensitive PASSED [ 48%]
+tests/test_validator.py::TestValidatePlan::test_valid_plan PASSED        [ 51%]
+tests/test_validator.py::TestValidatePlan::test_blocked_path PASSED      [ 53%]
+tests/test_validator.py::TestValidatePlan::test_unknown_action_type PASSED [ 56%]
+tests/test_validator.py::TestValidatePlan::test_blocked_powershell_command PASSED [ 58%]
+tests/test_validator.py::TestValidatePlan::test_allowed_powershell_command PASSED [ 60%]
+tests/test_validator.py::TestValidatePlan::test_multiple_violations PASSED [ 63%]
+tests/test_validator.py::TestValidatePlan::test_empty_plan PASSED        [ 65%]
+tests/test_memory.py::TestMemoryManager::test_db_initialization FAILED   [ 68%]
+tests/test_memory.py::TestMemoryManager::test_store_and_get_approved FAILED [ 70%]
+tests/test_memory.py::TestMemoryManager::test_store_and_get_rejected PASSED [ 73%]
+tests/test_memory.py::TestMemoryManager::test_app_usage_stats FAILED     [ 75%]
+tests/test_memory.py::TestMemoryManager::test_preferences FAILED         [ 78%]
+tests/test_memory.py::TestPreferenceStore::test_typed_access FAILED      [ 80%]
+tests/test_memory.py::TestSessionMemory::test_session_lifecycle PASSED   [ 82%]
+tests/test_logger.py::TestAegisLogger::test_log_request FAILED           [ 85%]
+tests/test_logger.py::TestAegisLogger::test_log_plan FAILED              [ 87%]
+tests/test_logger.py::TestAegisLogger::test_log_approval FAILED          [ 90%]
+tests/test_logger.py::TestAegisLogger::test_log_execution FAILED         [ 92%]
+tests/test_logger.py::TestAegisLogger::test_log_error FAILED             [ 95%]
+tests/test_logger.py::TestAegisLogger::test_multiple_entries_appended FAILED [ 97%]
+tests/test_logger.py::TestAegisLogger::test_log_validation_failure FAILED [100%]
+
+================================== FAILURES ===================================
+__________________ TestMemoryManager.test_db_initialization ___________________
+tests\test_memory.py:42: in test_db_initialization
+    assert "approved_actions" in tables
+E   AssertionError: assert 'approved_actions' in ['approved_plans', 'rejected_plans', 'daily_history', 'sqlite_sequence', 'app_usage', 'schema_version']
+________________ TestMemoryManager.test_store_and_get_approved ________________
+tests\test_memory.py:55: in test_store_and_get_approved
+    assert recent[0]["plan"]["summary"] == "Test plan"
+           ^^^^^^^^^^^^^^^^^
+E   KeyError: 'plan'
+___________________ TestMemoryManager.test_app_usage_stats ____________________
+tests\test_memory.py:75: in test_app_usage_stats
+    assert freq[0]["app_name"] == "notepad"
+           ^^^^^^^
+E   KeyError: 0
+_____________________ TestMemoryManager.test_preferences ______________________
+tests\test_memory.py:82: in test_preferences
+    mm.set_preference("theme", "dark")
+    ^^^^^^^^^^^^^^^^^
+E   AttributeError: 'MemoryManager' object has no attribute 'set_preference'
+____________________ TestPreferenceStore.test_typed_access ____________________
+tests\test_memory.py:94: in test_typed_access
+    store.set_bool("auto_approve", True)
+memory\preference_store.py:58: in set_bool
+    self._memory.set_preference(key, "true" if value else "false")
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   AttributeError: 'MemoryManager' object has no attribute 'set_preference'
+______________________ TestAegisLogger.test_log_request _______________________
+tests\test_logger.py:42: in test_log_request
+    self.logger.log_request("Open Notepad")
+    ^^^^^^^^^^^^^^^^^^^^^^^
+E   AttributeError: 'AegisLogger' object has no attribute 'log_request'
+________________________ TestAegisLogger.test_log_plan ________________________
+tests\test_logger.py:51: in test_log_plan
+    self.logger.log_plan(plan)
+    ^^^^^^^^^^^^^^^^^^^^
+E   AttributeError: 'AegisLogger' object has no attribute 'log_plan'. Did you mean: 'log_ai_plan'?
+______________________ TestAegisLogger.test_log_approval ______________________
+tests\test_logger.py:59: in test_log_approval
+    assert entries[0]["event_type"] == "approval"
+E   AssertionError: assert 'approval_event' == 'approval'
+E     
+E     - approval
+E     + approval_event
+_____________________ TestAegisLogger.test_log_execution ______________________
+tests\test_logger.py:64: in test_log_execution
+    self.logger.log_execution(results)
+E   TypeError: AegisLogger.log_execution() missing 2 required positional arguments: 'result' and 'success'
+_______________________ TestAegisLogger.test_log_error ________________________
+tests\test_logger.py:71: in test_log_error
+    assert entries[0]["event_type"] == "error"
+E   AssertionError: assert 'error_event' == 'error'
+E     
+E     - error
+E     + error_event
+_______________ TestAegisLogger.test_multiple_entries_appended ________________
+tests\test_logger.py:75: in test_multiple_entries_appended
+    self.logger.log_request("First")
+    ^^^^^^^^^^^^^^^^^^^^^^^
+E   AttributeError: 'AegisLogger' object has no attribute 'log_request'
+_________________ TestAegisLogger.test_log_validation_failure _________________
+tests\test_logger.py:83: in test_log_validation_failure
+    self.logger.log_validation_failure(warnings)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   AttributeError: 'AegisLogger' object has no attribute 'log_validation_failure'
+=========================== short test summary info ===========================
+FAILED tests/test_memory.py::TestMemoryManager::test_db_initialization - Asse...
+FAILED tests/test_memory.py::TestMemoryManager::test_store_and_get_approved
+FAILED tests/test_memory.py::TestMemoryManager::test_app_usage_stats - KeyErr...
+FAILED tests/test_memory.py::TestMemoryManager::test_preferences - AttributeE...
+FAILED tests/test_memory.py::TestPreferenceStore::test_typed_access - Attribu...
+FAILED tests/test_logger.py::TestAegisLogger::test_log_request - AttributeErr...
+FAILED tests/test_logger.py::TestAegisLogger::test_log_plan - AttributeError:...
+FAILED tests/test_logger.py::TestAegisLogger::test_log_approval - AssertionEr...
+FAILED tests/test_logger.py::TestAegisLogger::test_log_execution - TypeError:...
+FAILED tests/test_logger.py::TestAegisLogger::test_log_error - AssertionError...
+FAILED tests/test_logger.py::TestAegisLogger::test_multiple_entries_appended
+FAILED tests/test_logger.py::TestAegisLogger::test_log_validation_failure - A...
+======================== 12 failed, 29 passed in 4.34s ========================

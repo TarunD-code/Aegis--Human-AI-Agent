@@ -1,0 +1,35 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.13.2, pytest-7.4.0, pluggy-1.6.0 -- D:\Aegis\venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: D:\Aegis
+plugins: anyio-4.12.1
+collecting ... collected 9 items
+
+tests/behavioral/test_jarvis_flows.py::TestJarvisFlowsV5_1::test_direct_search_flow PASSED [ 11%]
+tests/behavioral/test_jarvis_flows.py::TestJarvisFlowsV5_1::test_notepad_type_flow PASSED [ 22%]
+tests/behavioral/test_jarvis_flows.py::TestJarvisFlowsV5_1::test_navigate_tab_flow PASSED [ 33%]
+tests/behavioral/test_jarvis_flows.py::TestJarvisFlowsV5_1::test_recovery_from_focus_failure PASSED [ 44%]
+tests/behavioral/test_jarvis_flows.py::TestJarvisFlowsV5_1::test_active_app_memory FAILED [ 55%]
+tests/behavioral/test_jarvis_flows.py::TestJarvisFlowsV5_1::test_missing_action_handler_safety PASSED [ 66%]
+tests/behavioral/test_jarvis_flows.py::TestJarvisFlowsV5_1::test_rect_property_safety PASSED [ 77%]
+tests/behavioral/test_jarvis_flows.py::TestJarvisFlowsV5_1::test_browser_new_tab PASSED [ 88%]
+tests/behavioral/test_jarvis_flows.py::TestJarvisFlowsV5_1::test_critical_action_logging PASSED [100%]
+
+================================== FAILURES ===================================
+_________________ TestJarvisFlowsV5_1.test_active_app_memory __________________
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py:1421: in patched
+    with self.decoration_helper(patched,
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\contextlib.py:141: in __enter__
+    return next(self.gen)
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py:1403: in decoration_helper
+    arg = exit_stack.enter_context(patching)
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\contextlib.py:530: in enter_context
+    result = _enter(cm)
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py:1479: in __enter__
+    self.target = self.getter()
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\pkgutil.py:528: in resolve_name
+    result = getattr(result, p)
+E   AttributeError: module 'core' has no attribute 'state'
+=========================== short test summary info ===========================
+FAILED tests/behavioral/test_jarvis_flows.py::TestJarvisFlowsV5_1::test_active_app_memory
+========================= 1 failed, 8 passed in 8.33s =========================

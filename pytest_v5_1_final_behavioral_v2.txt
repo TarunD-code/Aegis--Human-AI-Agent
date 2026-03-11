@@ -1,0 +1,30 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.13.2, pytest-7.4.0, pluggy-1.6.0 -- D:\Aegis\venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: D:\Aegis
+plugins: anyio-4.12.1
+collecting ... collected 9 items
+
+tests/behavioral/test_jarvis_flows.py::TestJarvisFlowsV5_1::test_direct_search_flow PASSED [ 11%]
+tests/behavioral/test_jarvis_flows.py::TestJarvisFlowsV5_1::test_notepad_type_flow PASSED [ 22%]
+tests/behavioral/test_jarvis_flows.py::TestJarvisFlowsV5_1::test_navigate_tab_flow PASSED [ 33%]
+tests/behavioral/test_jarvis_flows.py::TestJarvisFlowsV5_1::test_recovery_from_focus_failure PASSED [ 44%]
+tests/behavioral/test_jarvis_flows.py::TestJarvisFlowsV5_1::test_active_app_memory FAILED [ 55%]
+tests/behavioral/test_jarvis_flows.py::TestJarvisFlowsV5_1::test_missing_action_handler_safety PASSED [ 66%]
+tests/behavioral/test_jarvis_flows.py::TestJarvisFlowsV5_1::test_rect_property_safety PASSED [ 77%]
+tests/behavioral/test_jarvis_flows.py::TestJarvisFlowsV5_1::test_browser_new_tab PASSED [ 88%]
+tests/behavioral/test_jarvis_flows.py::TestJarvisFlowsV5_1::test_critical_action_logging PASSED [100%]
+
+================================== FAILURES ===================================
+_________________ TestJarvisFlowsV5_1.test_active_app_memory __________________
+tests\behavioral\test_jarvis_flows.py:86: in test_active_app_memory
+    assert plan.actions[0].params["application_name"] == "Chrome"
+E   KeyError: 'application_name'
+------------------------------ Captured log call ------------------------------
+WARNING  brain.plan_validator:plan_validator.py:68 Plan structure validation failed: ['missing_reasoning']
+WARNING  brain.contextual_planner:contextual_planner.py:87 [plan_1772697736] Attempt 1 validation failed: missing_reasoning. Regenerating...
+WARNING  brain.plan_validator:plan_validator.py:68 Plan structure validation failed: ['missing_reasoning']
+ERROR    brain.contextual_planner:contextual_planner.py:103 [plan_1772697736] Attempt 2 validation failed: missing_reasoning. Falling back to safe response.
+=========================== short test summary info ===========================
+FAILED tests/behavioral/test_jarvis_flows.py::TestJarvisFlowsV5_1::test_active_app_memory
+========================= 1 failed, 8 passed in 6.42s =========================

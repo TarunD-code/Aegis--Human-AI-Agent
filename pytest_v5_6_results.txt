@@ -1,0 +1,12 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.13.2, pytest-7.4.0, pluggy-1.6.0 -- D:\Aegis\venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: D:\Aegis
+plugins: anyio-4.12.1
+collecting ... collected 3 items
+
+tests/v5/test_behavioral_learning_v5_6.py::TestBehavioralLearningV5_6::test_record_transition_increments_count PASSED [ 33%]
+tests/v5/test_behavioral_learning_v5_6.py::TestBehavioralLearningV5_6::test_get_top_patterns_ordering PASSED [ 66%]
+tests/v5/test_behavioral_learning_v5_6.py::TestBehavioralLearningV5_6::test_proactive_suggestion_confidence_threshold PASSED [100%]
+
+============================== 3 passed in 0.43s ==============================

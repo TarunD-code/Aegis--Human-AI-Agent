@@ -1,0 +1,12 @@
+{
+    "notepad": "C:\\Windows\\System32\\notepad.exe",
+    "calculator": "calc.exe",
+    "chrome": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "word": "C:\\Program Files\\Microsoft Office\\root\\Office16\\WINWORD.EXE",
+    "excel": "C:\\Program Files\\Microsoft Office\\root\\Office16\\EXCEL.EXE",
+    "powerpoint": "C:\\Program Files\\Microsoft Office\\root\\Office16\\POWERPNT.EXE",
+    "explorer": "explorer.exe",
+    "task manager": "taskmgr.exe",
+    "cmd": "cmd.exe",
+    "powershell": "powershell.exe"
+}

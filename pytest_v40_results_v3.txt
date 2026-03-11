@@ -1,0 +1,38 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.13.2, pytest-7.4.0, pluggy-1.6.0 -- D:\Aegis\venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: D:\Aegis
+plugins: anyio-4.12.1
+collecting ... collected 12 items
+
+tests/test_desktop_automation.py::TestDesktopAutomation::test_typing_flow PASSED [  8%]
+tests/test_desktop_automation.py::TestDesktopAutomation::test_focus_flow PASSED [ 16%]
+tests/test_desktop_automation.py::TestDesktopAutomation::test_hotkey_flow PASSED [ 25%]
+tests/test_system_queries.py::TestSystemQueries::test_metrics_collection PASSED [ 33%]
+tests/test_research_queries.py::TestResearchQueries::test_wiki_lookup_success PASSED [ 41%]
+tests/test_research_queries.py::TestResearchQueries::test_ddg_fallback PASSED [ 50%]
+tests/test_risk_actions.py::TestRiskActions::test_high_risk_flagging PASSED [ 58%]
+tests/test_risk_actions.py::TestRiskActions::test_blocked_path_intervention PASSED [ 66%]
+tests/test_multistep_tasks.py::TestMultiStepTasks::test_sequential_execution_stops_on_fail PASSED [ 75%]
+tests/test_error_handling.py::TestErrorHandling::test_crashed_handler_reporting PASSED [ 83%]
+tests/test_context_memory.py::TestContextMemory::test_foreground_context_gathering PASSED [ 91%]
+tests/test_context_memory.py::TestContextMemory::test_session_state_mood_persistence FAILED [100%]
+
+================================== FAILURES ===================================
+____________ TestContextMemory.test_session_state_mood_persistence ____________
+tests\test_context_memory.py:36: in test_session_state_mood_persistence
+    cli._process_command("Help me now!")
+interfaces\cli.py:99: in _process_command
+    approved, _ = request_approval()
+security\approval_gate.py:79: in request_approval
+    response = input(
+venv\Lib\site-packages\_pytest\capture.py:202: in read
+    raise OSError(
+E   OSError: pytest: reading from stdin while output is captured!  Consider using `-s`.
+---------------------------- Captured stdout call -----------------------------
+\n  \U0001f9e0 Strategic Planning...\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n  \U0001f4cb  PROPOSED ACTION PLAN\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\n  Summary: MOCK MODE ACTIVE\n\n  Actions:\n    1. \u25b6\ufe0f  prompt_next_action\n       \u2514\u2500 params: {'message': 'Aegis is operating in offline mode. This is a mock response.'}\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\n  Approve this plan? (yes/no): 
+------------------------------ Captured log call ------------------------------
+WARNING  brain.llm.llm_client:llm_client.py:49 Initializing LLMClient in OFFLINE mock mode.
+=========================== short test summary info ===========================
+FAILED tests/test_context_memory.py::TestContextMemory::test_session_state_mood_persistence
+======================== 1 failed, 11 passed in 8.30s =========================

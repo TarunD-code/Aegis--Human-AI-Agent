@@ -1,0 +1,58 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.13.2, pytest-7.4.0, pluggy-1.6.0 -- D:\Aegis\venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: D:\Aegis
+plugins: anyio-4.12.1
+collecting ... collected 12 items
+
+tests/test_desktop_automation.py::TestDesktopAutomation::test_typing_flow PASSED [  8%]
+tests/test_desktop_automation.py::TestDesktopAutomation::test_focus_flow PASSED [ 16%]
+tests/test_desktop_automation.py::TestDesktopAutomation::test_hotkey_flow PASSED [ 25%]
+tests/test_system_queries.py::TestSystemQueries::test_metrics_collection PASSED [ 33%]
+tests/test_research_queries.py::TestResearchQueries::test_wiki_lookup_success PASSED [ 41%]
+tests/test_research_queries.py::TestResearchQueries::test_ddg_fallback PASSED [ 50%]
+tests/test_risk_actions.py::TestRiskActions::test_high_risk_flagging PASSED [ 58%]
+tests/test_risk_actions.py::TestRiskActions::test_blocked_path_intervention PASSED [ 66%]
+tests/test_multistep_tasks.py::TestMultiStepTasks::test_sequential_execution_stops_on_fail FAILED [ 75%]
+tests/test_error_handling.py::TestErrorHandling::test_crashed_handler_reporting FAILED [ 83%]
+tests/test_context_memory.py::TestContextMemory::test_foreground_context_gathering FAILED [ 91%]
+tests/test_context_memory.py::TestContextMemory::test_session_state_mood_persistence FAILED [100%]
+
+================================== FAILURES ===================================
+_________ TestMultiStepTasks.test_sequential_execution_stops_on_fail __________
+tests\test_multistep_tasks.py:42: in test_sequential_execution_stops_on_fail
+    results = engine.execute_plan(plan)
+execution\engine.py:71: in execute_plan
+    result.action_type = action.type # Ensure action_type is set
+E   AttributeError: property 'action_type' of 'ExecutionResult' object has no setter
+---------------------------- Captured stdout call -----------------------------
+  \x1b[36m\u23f3 Executing Strategy: Two steps\x1b[0m\n
+______________ TestErrorHandling.test_crashed_handler_reporting _______________
+tests\test_error_handling.py:29: in test_crashed_handler_reporting
+    assert res.success is False
+E   AssertionError: assert True is False
+E    +  where True = ExecutionResult(success=True, message='Input delivered to active window buffer', data={'action_type': 'type_text'}).success
+_____________ TestContextMemory.test_foreground_context_gathering _____________
+tests\test_context_memory.py:24: in test_foreground_context_gathering
+    context = cli._gather_context()
+interfaces\cli.py:123: in _gather_context
+    "daily_history": self._memory.get_daily_history(datetime.now().strftime("%Y-%m-%d")),
+E   NameError: name 'datetime' is not defined. Did you forget to import 'datetime'?
+------------------------------ Captured log call ------------------------------
+WARNING  brain.llm.llm_client:llm_client.py:49 Initializing LLMClient in OFFLINE mock mode.
+____________ TestContextMemory.test_session_state_mood_persistence ____________
+tests\test_context_memory.py:36: in test_session_state_mood_persistence
+    cli._process_command("Help me now!")
+interfaces\cli.py:83: in _process_command
+    context = self._gather_context()
+interfaces\cli.py:123: in _gather_context
+    "daily_history": self._memory.get_daily_history(datetime.now().strftime("%Y-%m-%d")),
+E   NameError: name 'datetime' is not defined. Did you forget to import 'datetime'?
+------------------------------ Captured log call ------------------------------
+WARNING  brain.llm.llm_client:llm_client.py:49 Initializing LLMClient in OFFLINE mock mode.
+=========================== short test summary info ===========================
+FAILED tests/test_multistep_tasks.py::TestMultiStepTasks::test_sequential_execution_stops_on_fail
+FAILED tests/test_error_handling.py::TestErrorHandling::test_crashed_handler_reporting
+FAILED tests/test_context_memory.py::TestContextMemory::test_foreground_context_gathering
+FAILED tests/test_context_memory.py::TestContextMemory::test_session_state_mood_persistence
+======================== 4 failed, 8 passed in 12.17s =========================

@@ -1,0 +1,43 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.13.2, pytest-7.4.0, pluggy-1.6.0 -- D:\Aegis\venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: D:\Aegis
+plugins: anyio-4.12.1
+collecting ... collected 6 items
+
+tests/v5/test_working_memory_v5_3.py::TestWorkingMemoryV5_3::test_set_get_mechanics PASSED [ 16%]
+tests/v5/test_working_memory_v5_3.py::TestWorkingMemoryV5_3::test_reset_mechanics PASSED [ 33%]
+tests/v5/test_working_memory_v5_3.py::TestWorkingMemoryV5_3::test_get_all PASSED [ 50%]
+tests/behavioral/test_memory_chaining_v5_3.py::TestMemoryChainingV5_3::test_compute_result_updates_working_memory FAILED [ 66%]
+tests/behavioral/test_memory_chaining_v5_3.py::TestMemoryChainingV5_3::test_type_text_updates_working_memory FAILED [ 83%]
+tests/behavioral/test_memory_chaining_v5_3.py::TestMemoryChainingV5_3::test_planner_receives_working_memory PASSED [100%]
+
+================================== FAILURES ===================================
+______ TestMemoryChainingV5_3.test_compute_result_updates_working_memory ______
+tests\behavioral\test_memory_chaining_v5_3.py:26: in test_compute_result_updates_working_memory
+    assert working_memory.get("last_result") == 15
+E   AssertionError: assert None == 15
+E    +  where None = <bound method WorkingMemory.get of <memory.working_memory.WorkingMemory object at 0x0000027649C536F0>>('last_result')
+E    +    where <bound method WorkingMemory.get of <memory.working_memory.WorkingMemory object at 0x0000027649C536F0>> = <memory.working_memory.WorkingMemory object at 0x0000027649C536F0>.get
+________ TestMemoryChainingV5_3.test_type_text_updates_working_memory _________
+tests\behavioral\test_memory_chaining_v5_3.py:41: in test_type_text_updates_working_memory
+    assert working_memory.get("last_text_written") == "hello world"
+E   AssertionError: assert None == 'hello world'
+E    +  where None = <bound method WorkingMemory.get of <memory.working_memory.WorkingMemory object at 0x0000027649C536F0>>('last_text_written')
+E    +    where <bound method WorkingMemory.get of <memory.working_memory.WorkingMemory object at 0x0000027649C536F0>> = <memory.working_memory.WorkingMemory object at 0x0000027649C536F0>.get
+------------------------------ Captured log call ------------------------------
+WARNING  execution.ui_automation.window_focus:window_focus.py:43 No windows found matching pattern: .*Notepad.*
+WARNING  execution.actions.ui_actions:ui_actions.py:50 Active window verification failed for 'Notepad'. Attempting refocus retry.
+WARNING  execution.ui_automation.window_focus:window_focus.py:43 No windows found matching pattern: .*Notepad.*
+WARNING  execution.ui_automation.window_focus:window_focus.py:43 No windows found matching pattern: .*Notepad.*
+WARNING  execution.ui_automation.window_focus:window_focus.py:43 No windows found matching pattern: .*Notepad.*
+WARNING  execution.actions.ui_actions:ui_actions.py:50 Active window verification failed for 'Notepad'. Attempting refocus retry.
+WARNING  execution.ui_automation.window_focus:window_focus.py:43 No windows found matching pattern: .*Notepad.*
+WARNING  execution.ui_automation.window_focus:window_focus.py:43 No windows found matching pattern: .*Notepad.*
+WARNING  execution.ui_automation.window_focus:window_focus.py:43 No windows found matching pattern: .*Notepad.*
+WARNING  execution.actions.ui_actions:ui_actions.py:50 Active window verification failed for 'Notepad'. Attempting refocus retry.
+WARNING  execution.ui_automation.window_focus:window_focus.py:43 No windows found matching pattern: .*Notepad.*
+=========================== short test summary info ===========================
+FAILED tests/behavioral/test_memory_chaining_v5_3.py::TestMemoryChainingV5_3::test_compute_result_updates_working_memory
+FAILED tests/behavioral/test_memory_chaining_v5_3.py::TestMemoryChainingV5_3::test_type_text_updates_working_memory
+========================= 2 failed, 4 passed in 8.47s =========================

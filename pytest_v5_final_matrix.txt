@@ -1,0 +1,24 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.13.2, pytest-7.4.0, pluggy-1.6.0 -- D:\Aegis\venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: D:\Aegis
+plugins: anyio-4.12.1
+collecting ... collected 15 items
+
+tests/v5/test_planner_v5.py::TestPlannerV5::test_planner_regenerates_once PASSED [  6%]
+tests/v5/test_planner_v5.py::TestPlannerV5::test_planner_never_regenerates_twice PASSED [ 13%]
+tests/v5/test_planner_v5.py::TestPlannerV5::test_planner_accepts_valid_immediately PASSED [ 20%]
+tests/v5/test_resilience_v5.py::TestExecutionResilienceV5::test_global_retry_logic PASSED [ 26%]
+tests/v5/test_resilience_v5.py::TestExecutionResilienceV5::test_focus_to_open_fallback PASSED [ 33%]
+tests/v5/test_resilience_v5.py::TestExecutionResilienceV5::test_optional_action_resilience PASSED [ 40%]
+tests/v5/test_typing_v5.py::TestTypingV5::test_type_text_browser_context PASSED [ 46%]
+tests/v5/test_typing_v5.py::TestTypingV5::test_type_text_generic_context PASSED [ 53%]
+tests/v5/test_typing_v5.py::TestTypingV5::test_type_text_blind_fallback PASSED [ 60%]
+tests/v5/test_vision_v5.py::TestDigitalVisionV5::test_find_elements_mock PASSED [ 66%]
+tests/v5/test_vision_v5.py::TestDigitalVisionV5::test_click_element_by_name_mock PASSED [ 73%]
+tests/v5/test_window_focus.py::TestWindowFocusV5::test_focus_exact_match PASSED [ 80%]
+tests/v5/test_window_focus.py::TestWindowFocusV5::test_focus_multiple_windows_priority PASSED [ 86%]
+tests/v5/test_window_focus.py::TestWindowFocusV5::test_focus_fallback_triggered PASSED [ 93%]
+tests/behavioral/test_research_pipeline.py::TestJarvisResearchPipelineV5::test_research_to_memory_flow PASSED [100%]
+
+============================= 15 passed in 6.56s ==============================

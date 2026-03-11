@@ -1,0 +1,21 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.13.2, pytest-7.4.0, pluggy-1.6.0 -- D:\Aegis\venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: D:\Aegis
+plugins: anyio-4.12.1
+collecting ... collected 0 items / 1 error
+
+=================================== ERRORS ====================================
+_______________ ERROR collecting tests/v5/test_window_focus.py ________________
+ImportError while importing test module 'd:\Aegis\tests\v5\test_window_focus.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests\v5\test_window_focus.py:3: in <module>
+    from execution.ui_automation.window_focus import focus_window_v5
+E   ModuleNotFoundError: No module named 'execution.ui_automation.window_focus'; 'execution.ui_automation' is not a package
+=========================== short test summary info ===========================
+ERROR tests/v5/test_window_focus.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+============================== 1 error in 2.45s ===============================

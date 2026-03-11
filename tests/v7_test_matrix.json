@@ -1,0 +1,874 @@
+[
+  {
+    "name": "app_resolve_notepad",
+    "action": {
+      "type": "open_application",
+      "value": "notepadd"
+    },
+    "expected_best_match": "notepad",
+    "min_score": 70
+  },
+  {
+    "name": "app_resolve_calc",
+    "action": {
+      "type": "open_application",
+      "value": "calcu"
+    },
+    "expected_best_match": "calc",
+    "min_score": 70
+  },
+  {
+    "name": "app_resolve_chrome",
+    "action": {
+      "type": "open_application",
+      "value": "chrom"
+    },
+    "expected_best_match": "chrome",
+    "min_score": 70
+  },
+  {
+    "name": "app_resolve_vscode",
+    "action": {
+      "type": "open_application",
+      "value": "vscod"
+    },
+    "expected_best_match": "vscode",
+    "min_score": 70
+  },
+  {
+    "name": "app_resolve_excel",
+    "action": {
+      "type": "open_application",
+      "value": "excl"
+    },
+    "expected_best_match": "excel",
+    "min_score": 70
+  },
+  {
+    "name": "app_resolve_word",
+    "action": {
+      "type": "open_application",
+      "value": "wrod"
+    },
+    "expected_best_match": "word",
+    "min_score": 70
+  },
+  {
+    "name": "app_resolve_powerpnt",
+    "action": {
+      "type": "open_application",
+      "value": "ppnt"
+    },
+    "expected_best_match": "powerpnt",
+    "min_score": 70
+  },
+  {
+    "name": "window_focus_notepad",
+    "action": {
+      "type": "focus_application",
+      "value": "Notepad"
+    },
+    "fuzz_match": true
+  },
+  {
+    "name": "window_focus_calculator",
+    "action": {
+      "type": "focus_application",
+      "value": "Calculator"
+    },
+    "fuzz_match": true
+  },
+  {
+    "name": "window_focus_google_chrome",
+    "action": {
+      "type": "focus_application",
+      "value": "Google Chrome"
+    },
+    "fuzz_match": true
+  },
+  {
+    "name": "window_focus_visual_studio_code",
+    "action": {
+      "type": "focus_application",
+      "value": "Visual Studio Code"
+    },
+    "fuzz_match": true
+  },
+  {
+    "name": "vision_click_start",
+    "action": {
+      "type": "click",
+      "params": {
+        "element_name": "Start"
+      }
+    },
+    "strategy": "vision"
+  },
+  {
+    "name": "vision_click_file",
+    "action": {
+      "type": "click",
+      "params": {
+        "element_name": "File"
+      }
+    },
+    "strategy": "vision"
+  },
+  {
+    "name": "vision_click_edit",
+    "action": {
+      "type": "click",
+      "params": {
+        "element_name": "Edit"
+      }
+    },
+    "strategy": "vision"
+  },
+  {
+    "name": "vision_click_search",
+    "action": {
+      "type": "click",
+      "params": {
+        "element_name": "Search"
+      }
+    },
+    "strategy": "vision"
+  },
+  {
+    "name": "vision_click_login",
+    "action": {
+      "type": "click",
+      "params": {
+        "element_name": "Login"
+      }
+    },
+    "strategy": "vision"
+  },
+  {
+    "name": "vision_click_submit",
+    "action": {
+      "type": "click",
+      "params": {
+        "element_name": "Submit"
+      }
+    },
+    "strategy": "vision"
+  },
+  {
+    "name": "security_block_unauthorized",
+    "action": {
+      "type": "format_c_drive",
+      "value": ""
+    },
+    "expected": "blocked"
+  },
+  {
+    "name": "security_confirm_high_risk",
+    "action": {
+      "type": "run_powershell",
+      "value": "rm -rf /",
+      "risk_level": "CRITICAL"
+    },
+    "expected": "confirmation_requested"
+  },
+  {
+    "name": "load_test_0",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_1",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_2",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_3",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_4",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_5",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_6",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_7",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_8",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_9",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_10",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_11",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_12",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_13",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_14",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_15",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_16",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_17",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_18",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_19",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_20",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_21",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_22",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_23",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_24",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_25",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_26",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_27",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_28",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_29",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_30",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_31",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_32",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_33",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_34",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_35",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_36",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_37",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_38",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_39",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_40",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_41",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_42",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_43",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_44",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_45",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_46",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_47",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_48",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_49",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_50",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_51",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_52",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_53",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_54",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_55",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_56",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_57",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_58",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_59",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_60",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_61",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_62",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_63",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_64",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_65",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_66",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_67",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_68",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_69",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_70",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_71",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_72",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_73",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_74",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_75",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_76",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_77",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_78",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_79",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_80",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_81",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_82",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_83",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_84",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_85",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_86",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_87",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_88",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_89",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_90",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_91",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_92",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_93",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_94",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_95",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_96",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_97",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_98",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  },
+  {
+    "name": "load_test_99",
+    "action": {
+      "type": "wait",
+      "value": "0.1"
+    }
+  }
+]

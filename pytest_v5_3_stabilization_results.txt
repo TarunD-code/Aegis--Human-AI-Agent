@@ -1,0 +1,23 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.13.2, pytest-7.4.0, pluggy-1.6.0 -- D:\Aegis\venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: D:\Aegis
+plugins: anyio-4.12.1
+collecting ... collected 6 items
+
+tests/v5/test_v5_3_stabilization.py::TestStabilizationV5_3::test_memory_manager_singleton PASSED [ 16%]
+tests/v5/test_v5_3_stabilization.py::TestStabilizationV5_3::test_execution_router_math PASSED [ 33%]
+tests/v5/test_v5_3_stabilization.py::TestStabilizationV5_3::test_execution_router_fallback PASSED [ 50%]
+tests/v5/test_v5_3_stabilization.py::TestStabilizationV5_3::test_app_registry_static_lookup FAILED [ 66%]
+tests/v5/test_v5_3_stabilization.py::TestStabilizationV5_3::test_cli_resilience PASSED [ 83%]
+tests/v5/test_v5_3_stabilization.py::TestStabilizationV5_3::test_window_tracker_integration PASSED [100%]
+
+================================== FAILURES ===================================
+____________ TestStabilizationV5_3.test_app_registry_static_lookup ____________
+tests\v5\test_v5_3_stabilization.py:55: in test_app_registry_static_lookup
+    assert res.success is True
+E   assert False is True
+E    +  where False = ExecutionResult(success=False, message="Application 'notepad' not found on this system.", data={'action_type': 'open_application'}).success
+=========================== short test summary info ===========================
+FAILED tests/v5/test_v5_3_stabilization.py::TestStabilizationV5_3::test_app_registry_static_lookup
+========================= 1 failed, 5 passed in 3.61s =========================

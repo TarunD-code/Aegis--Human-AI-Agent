@@ -1,0 +1,10 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.13.2, pytest-7.4.0, pluggy-1.6.0 -- D:\Aegis\venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: D:\Aegis
+plugins: anyio-4.12.1
+collecting ... collected 1 item
+
+tests/behavioral/test_research_pipeline.py::TestJarvisResearchPipelineV5::test_research_to_memory_flow PASSED [100%]
+
+============================== 1 passed in 1.51s ==============================

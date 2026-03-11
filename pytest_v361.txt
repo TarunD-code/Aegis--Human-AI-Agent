@@ -1,0 +1,72 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.13.2, pytest-7.4.0, pluggy-1.6.0 -- D:\Aegis\venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: D:\Aegis
+plugins: anyio-4.12.1
+collecting ... collected 56 items
+
+tests/test_memory_user_profile.py::TestUserProfile::test_get_user_profile_returns_dict_when_empty PASSED [  1%]
+tests/test_memory_user_profile.py::TestUserProfile::test_set_and_get_profile PASSED [  3%]
+tests/test_memory_user_profile.py::TestUserProfile::test_update_profile_merges PASSED [  5%]
+tests/test_memory_user_profile.py::TestUserProfile::test_migration_from_json PASSED [  7%]
+tests/test_memory_user_profile.py::TestUserProfile::test_profile_persists_across_instances PASSED [  8%]
+tests/test_memory_user_profile.py::TestPreferences::test_get_missing_returns_default PASSED [ 10%]
+tests/test_memory_user_profile.py::TestPreferences::test_set_and_get PASSED [ 12%]
+tests/test_memory_user_profile.py::TestPreferences::test_upsert_overwrites PASSED [ 14%]
+tests/test_memory_user_profile.py::TestPreferences::test_preference_store_integration PASSED [ 16%]
+tests/test_memory.py::TestMemoryManager::test_db_initialization PASSED   [ 17%]
+tests/test_memory.py::TestMemoryManager::test_store_and_get_approved PASSED [ 19%]
+tests/test_memory.py::TestMemoryManager::test_store_and_get_rejected PASSED [ 21%]
+tests/test_memory.py::TestMemoryManager::test_app_usage_stats PASSED     [ 23%]
+tests/test_memory.py::TestMemoryManager::test_store_action_event PASSED  [ 25%]
+tests/test_memory.py::TestSessionMemory::test_session_lifecycle PASSED   [ 26%]
+tests/test_logger.py::TestAegisLogger::test_log_ai_plan PASSED           [ 28%]
+tests/test_logger.py::TestAegisLogger::test_log_approval PASSED          [ 30%]
+tests/test_logger.py::TestAegisLogger::test_log_execution PASSED         [ 32%]
+tests/test_logger.py::TestAegisLogger::test_log_error PASSED             [ 33%]
+tests/test_logger.py::TestAegisLogger::test_multiple_entries_appended PASSED [ 35%]
+tests/test_logger.py::TestAegisLogger::test_log_ai_plan_with_errors PASSED [ 37%]
+tests/test_plan_validation.py::TestPlanValidation::test_fallback_mapping PASSED [ 39%]
+tests/test_plan_validation.py::TestPlanValidation::test_missing_action_params PASSED [ 41%]
+tests/test_plan_validation.py::TestPlanValidation::test_missing_summary PASSED [ 42%]
+tests/test_cli_flow.py::TestCLIFlow::test_display_approval_execute_flow PASSED [ 44%]
+tests/test_llm_offline_mode.py::TestLLMOfflineMode::test_offline_fallback PASSED [ 46%]
+tests/test_db_migration.py::TestDBMigration::test_migration_run FAILED   [ 48%]
+tests/test_validator.py::TestIsActionAllowed::test_allowed_actions PASSED [ 50%]
+tests/test_validator.py::TestIsActionAllowed::test_disallowed_actions PASSED [ 51%]
+tests/test_validator.py::TestIsPathBlocked::test_blocked_windows_folder PASSED [ 53%]
+tests/test_validator.py::TestIsPathBlocked::test_blocked_subfolder PASSED [ 55%]
+tests/test_validator.py::TestIsPathBlocked::test_blocked_program_files PASSED [ 57%]
+tests/test_validator.py::TestIsPathBlocked::test_blocked_system_volume PASSED [ 58%]
+tests/test_validator.py::TestIsPathBlocked::test_safe_path PASSED        [ 60%]
+tests/test_validator.py::TestIsPathBlocked::test_empty_path PASSED       [ 62%]
+tests/test_validator.py::TestIsPathBlocked::test_case_insensitive PASSED [ 64%]
+tests/test_validator.py::TestIsPathBlocked::test_forward_slashes PASSED  [ 66%]
+tests/test_validator.py::TestIsPsCommandAllowed::test_allowed_commands PASSED [ 67%]
+tests/test_validator.py::TestIsPsCommandAllowed::test_disallowed_commands PASSED [ 69%]
+tests/test_validator.py::TestIsPsCommandAllowed::test_empty_command PASSED [ 71%]
+tests/test_validator.py::TestIsPsCommandAllowed::test_case_insensitive PASSED [ 73%]
+tests/test_validator.py::TestValidatePlan::test_valid_plan PASSED        [ 75%]
+tests/test_validator.py::TestValidatePlan::test_blocked_path PASSED      [ 76%]
+tests/test_validator.py::TestValidatePlan::test_unknown_action_type PASSED [ 78%]
+tests/test_validator.py::TestValidatePlan::test_blocked_powershell_command PASSED [ 80%]
+tests/test_validator.py::TestValidatePlan::test_allowed_powershell_command PASSED [ 82%]
+tests/test_validator.py::TestValidatePlan::test_multiple_violations PASSED [ 83%]
+tests/test_validator.py::TestValidatePlan::test_empty_plan PASSED        [ 85%]
+tests/integration/test_malformed_llm_recovery.py::TestMalformedLLMRecovery::test_missing_summary_rejected PASSED [ 87%]
+tests/integration/test_malformed_llm_recovery.py::TestMalformedLLMRecovery::test_unknown_action_rejected PASSED [ 89%]
+tests/integration/test_malformed_llm_recovery.py::TestMalformedLLMRecovery::test_missing_required_param_reported PASSED [ 91%]
+tests/integration/test_malformed_llm_recovery.py::TestMalformedLLMRecovery::test_valid_plan_passes PASSED [ 92%]
+tests/integration/test_offline_mode.py::TestOfflineMode::test_offline_mode_returns_mock_plan PASSED [ 94%]
+tests/integration/test_offline_mode.py::TestOfflineMode::test_offline_mode_no_api_key_needed PASSED [ 96%]
+tests/integration/test_open_app_flow.py::TestOpenAppFlow::test_open_calculator_flow PASSED [ 98%]
+tests/integration/test_open_app_flow.py::TestOpenAppFlow::test_plan_with_legacy_value_field PASSED [100%]
+
+================================== FAILURES ===================================
+_____________________ TestDBMigration.test_migration_run ______________________
+tests\test_db_migration.py:34: in test_migration_run
+    self.assertEqual(version, 2)
+E   AssertionError: 3 != 2
+=========================== short test summary info ===========================
+FAILED tests/test_db_migration.py::TestDBMigration::test_migration_run - Asse...
+======================== 1 failed, 55 passed in 4.48s =========================

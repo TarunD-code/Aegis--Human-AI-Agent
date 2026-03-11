@@ -1,0 +1,136 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.13.2, pytest-7.4.0, pluggy-1.6.0 -- D:\Aegis\venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: D:\Aegis
+plugins: anyio-4.12.1
+collecting ... collected 5 items / 4 errors
+
+=================================== ERRORS ====================================
+______________ ERROR collecting tests/test_desktop_automation.py ______________
+venv\Lib\site-packages\_pytest\runner.py:341: in from_call
+    result: Optional[TResult] = func()
+venv\Lib\site-packages\_pytest\runner.py:372: in <lambda>
+    call = CallInfo.from_call(lambda: list(collector.collect()), "collect")
+venv\Lib\site-packages\_pytest\python.py:531: in collect
+    self._inject_setup_module_fixture()
+venv\Lib\site-packages\_pytest\python.py:545: in _inject_setup_module_fixture
+    self.obj, ("setUpModule", "setup_module")
+venv\Lib\site-packages\_pytest\python.py:310: in obj
+    self._obj = obj = self._getobj()
+venv\Lib\site-packages\_pytest\python.py:528: in _getobj
+    return self._importtestmodule()
+venv\Lib\site-packages\_pytest\python.py:617: in _importtestmodule
+    mod = import_path(self.path, mode=importmode, root=self.config.rootpath)
+venv\Lib\site-packages\_pytest\pathlib.py:565: in import_path
+    importlib.import_module(module_name)
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:1331: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:935: in _load_unlocked
+    ???
+venv\Lib\site-packages\_pytest\assertion\rewrite.py:178: in exec_module
+    exec(co, module.__dict__)
+tests\test_desktop_automation.py:14: in <module>
+    from execution.actions.ui_actions import type_text, focus_application, hotkey
+execution\actions\__init__.py:35: in <module>
+    "move_mouse": ui_actions.move_mouse,
+E   AttributeError: module 'execution.actions.ui_actions' has no attribute 'move_mouse'
+_______________ ERROR collecting tests/test_multistep_tasks.py ________________
+venv\Lib\site-packages\_pytest\runner.py:341: in from_call
+    result: Optional[TResult] = func()
+venv\Lib\site-packages\_pytest\runner.py:372: in <lambda>
+    call = CallInfo.from_call(lambda: list(collector.collect()), "collect")
+venv\Lib\site-packages\_pytest\python.py:531: in collect
+    self._inject_setup_module_fixture()
+venv\Lib\site-packages\_pytest\python.py:545: in _inject_setup_module_fixture
+    self.obj, ("setUpModule", "setup_module")
+venv\Lib\site-packages\_pytest\python.py:310: in obj
+    self._obj = obj = self._getobj()
+venv\Lib\site-packages\_pytest\python.py:528: in _getobj
+    return self._importtestmodule()
+venv\Lib\site-packages\_pytest\python.py:617: in _importtestmodule
+    mod = import_path(self.path, mode=importmode, root=self.config.rootpath)
+venv\Lib\site-packages\_pytest\pathlib.py:565: in import_path
+    importlib.import_module(module_name)
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:1331: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:935: in _load_unlocked
+    ???
+venv\Lib\site-packages\_pytest\assertion\rewrite.py:178: in exec_module
+    exec(co, module.__dict__)
+tests\test_multistep_tasks.py:14: in <module>
+    from execution.engine import ExecutionEngine
+execution\engine.py:13: in <module>
+    from execution.actions import ACTION_REGISTRY
+execution\actions\__init__.py:35: in <module>
+    "move_mouse": ui_actions.move_mouse,
+E   AttributeError: module 'execution.actions.ui_actions' has no attribute 'move_mouse'
+________________ ERROR collecting tests/test_error_handling.py ________________
+venv\Lib\site-packages\_pytest\runner.py:341: in from_call
+    result: Optional[TResult] = func()
+venv\Lib\site-packages\_pytest\runner.py:372: in <lambda>
+    call = CallInfo.from_call(lambda: list(collector.collect()), "collect")
+venv\Lib\site-packages\_pytest\python.py:531: in collect
+    self._inject_setup_module_fixture()
+venv\Lib\site-packages\_pytest\python.py:545: in _inject_setup_module_fixture
+    self.obj, ("setUpModule", "setup_module")
+venv\Lib\site-packages\_pytest\python.py:310: in obj
+    self._obj = obj = self._getobj()
+venv\Lib\site-packages\_pytest\python.py:528: in _getobj
+    return self._importtestmodule()
+venv\Lib\site-packages\_pytest\python.py:617: in _importtestmodule
+    mod = import_path(self.path, mode=importmode, root=self.config.rootpath)
+venv\Lib\site-packages\_pytest\pathlib.py:565: in import_path
+    importlib.import_module(module_name)
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:1331: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:935: in _load_unlocked
+    ???
+venv\Lib\site-packages\_pytest\assertion\rewrite.py:178: in exec_module
+    exec(co, module.__dict__)
+tests\test_error_handling.py:14: in <module>
+    from execution.engine import ExecutionEngine
+execution\engine.py:13: in <module>
+    from execution.actions import ACTION_REGISTRY
+execution\actions\__init__.py:35: in <module>
+    "move_mouse": ui_actions.move_mouse,
+E   AttributeError: module 'execution.actions.ui_actions' has no attribute 'move_mouse'
+________________ ERROR collecting tests/test_context_memory.py ________________
+ImportError while importing test module 'D:\Aegis\tests\test_context_memory.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests\test_context_memory.py:14: in <module>
+    from interfaces.cli import AegisCLI
+interfaces\cli.py:14: in <module>
+    from brain.contextual_planner import ContextualPlanner
+brain\contextual_planner.py:23: in <module>
+    from brain.llm.llm_client import LLMClient
+brain\llm\llm_client.py:15: in <module>
+    from config import GROQ_MODEL, LLM_URL, get_action_list
+E   ImportError: cannot import name 'LLM_URL' from 'config' (D:\Aegis\config.py)
+=========================== short test summary info ===========================
+ERROR tests/test_desktop_automation.py - AttributeError: module 'execution.ac...
+ERROR tests/test_multistep_tasks.py - AttributeError: module 'execution.actio...
+ERROR tests/test_error_handling.py - AttributeError: module 'execution.action...
+ERROR tests/test_context_memory.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 4 errors during collection !!!!!!!!!!!!!!!!!!!
+============================== 4 errors in 7.13s ==============================

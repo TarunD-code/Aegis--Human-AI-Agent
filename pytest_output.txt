@@ -1,0 +1,190 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.13.2, pytest-7.4.0, pluggy-1.6.0
+rootdir: D:\Aegis
+plugins: anyio-4.12.1
+collected 66 items / 12 errors
+
+=================================== ERRORS ====================================
+______________ ERROR collecting tests/test_aegis_ultimate_500.py ______________
+ImportError while importing test module 'D:\Aegis\tests\test_aegis_ultimate_500.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests\test_aegis_ultimate_500.py:13: in <module>
+    from interfaces.cli import AegisCLI
+interfaces\cli.py:15: in <module>
+    from brain.contextual_planner import ContextualPlanner
+brain\contextual_planner.py:23: in <module>
+    from brain.llm.llm_client import LLMClient
+brain\llm\llm_client.py:15: in <module>
+    from config import GROQ_MODEL, LLM_URL, get_action_list
+E   ImportError: cannot import name 'LLM_URL' from 'config' (D:\Aegis\config.py)
+___________ ERROR collecting tests/test_aegis_v3_2_ultimate_500.py ____________
+ImportError while importing test module 'D:\Aegis\tests\test_aegis_v3_2_ultimate_500.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests\test_aegis_v3_2_ultimate_500.py:13: in <module>
+    from interfaces.cli import AegisCLI
+interfaces\cli.py:15: in <module>
+    from brain.contextual_planner import ContextualPlanner
+brain\contextual_planner.py:23: in <module>
+    from brain.llm.llm_client import LLMClient
+brain\llm\llm_client.py:15: in <module>
+    from config import GROQ_MODEL, LLM_URL, get_action_list
+E   ImportError: cannot import name 'LLM_URL' from 'config' (D:\Aegis\config.py)
+___________ ERROR collecting tests/test_aegis_v3_3_ultimate_500.py ____________
+ImportError while importing test module 'D:\Aegis\tests\test_aegis_v3_3_ultimate_500.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests\test_aegis_v3_3_ultimate_500.py:13: in <module>
+    from interfaces.cli import AegisCLI
+interfaces\cli.py:15: in <module>
+    from brain.contextual_planner import ContextualPlanner
+brain\contextual_planner.py:23: in <module>
+    from brain.llm.llm_client import LLMClient
+brain\llm\llm_client.py:15: in <module>
+    from config import GROQ_MODEL, LLM_URL, get_action_list
+E   ImportError: cannot import name 'LLM_URL' from 'config' (D:\Aegis\config.py)
+__________ ERROR collecting tests/test_aegis_v3_3_ultimate_matrix.py __________
+ImportError while importing test module 'D:\Aegis\tests\test_aegis_v3_3_ultimate_matrix.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests\test_aegis_v3_3_ultimate_matrix.py:14: in <module>
+    from brain.contextual_planner import ContextualPlanner
+brain\contextual_planner.py:23: in <module>
+    from brain.llm.llm_client import LLMClient
+brain\llm\llm_client.py:15: in <module>
+    from config import GROQ_MODEL, LLM_URL, get_action_list
+E   ImportError: cannot import name 'LLM_URL' from 'config' (D:\Aegis\config.py)
+____________ ERROR collecting tests/test_aegis_v3_5_human_suite.py ____________
+ImportError while importing test module 'D:\Aegis\tests\test_aegis_v3_5_human_suite.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests\test_aegis_v3_5_human_suite.py:9: in <module>
+    from brain.contextual_planner import ContextualPlanner
+brain\contextual_planner.py:23: in <module>
+    from brain.llm.llm_client import LLMClient
+brain\llm\llm_client.py:15: in <module>
+    from config import GROQ_MODEL, LLM_URL, get_action_list
+E   ImportError: cannot import name 'LLM_URL' from 'config' (D:\Aegis\config.py)
+___________________ ERROR collecting tests/test_cli_flow.py ___________________
+ImportError while importing test module 'D:\Aegis\tests\test_cli_flow.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests\test_cli_flow.py:3: in <module>
+    from interfaces.cli import AegisCLI
+interfaces\cli.py:15: in <module>
+    from brain.contextual_planner import ContextualPlanner
+brain\contextual_planner.py:23: in <module>
+    from brain.llm.llm_client import LLMClient
+brain\llm\llm_client.py:15: in <module>
+    from config import GROQ_MODEL, LLM_URL, get_action_list
+E   ImportError: cannot import name 'LLM_URL' from 'config' (D:\Aegis\config.py)
+______________ ERROR collecting tests/test_contextual_planner.py ______________
+ImportError while importing test module 'D:\Aegis\tests\test_contextual_planner.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests\test_contextual_planner.py:19: in <module>
+    from brain.contextual_planner import ContextualPlanner
+brain\contextual_planner.py:23: in <module>
+    from brain.llm.llm_client import LLMClient
+brain\llm\llm_client.py:15: in <module>
+    from config import GROQ_MODEL, LLM_URL, get_action_list
+E   ImportError: cannot import name 'LLM_URL' from 'config' (D:\Aegis\config.py)
+_________________ ERROR collecting tests/test_integration.py __________________
+ImportError while importing test module 'D:\Aegis\tests\test_integration.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests\test_integration.py:19: in <module>
+    from interfaces.cli import AegisCLI
+interfaces\cli.py:15: in <module>
+    from brain.contextual_planner import ContextualPlanner
+brain\contextual_planner.py:23: in <module>
+    from brain.llm.llm_client import LLMClient
+brain\llm\llm_client.py:15: in <module>
+    from config import GROQ_MODEL, LLM_URL, get_action_list
+E   ImportError: cannot import name 'LLM_URL' from 'config' (D:\Aegis\config.py)
+_______________ ERROR collecting tests/test_llm_offline_mode.py _______________
+ImportError while importing test module 'D:\Aegis\tests\test_llm_offline_mode.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests\test_llm_offline_mode.py:3: in <module>
+    from brain.llm.llm_client import LLMClient
+brain\llm\llm_client.py:15: in <module>
+    from config import GROQ_MODEL, LLM_URL, get_action_list
+E   ImportError: cannot import name 'LLM_URL' from 'config' (D:\Aegis\config.py)
+_________________ ERROR collecting tests/test_v3_1_context.py _________________
+ImportError while importing test module 'D:\Aegis\tests\test_v3_1_context.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests\test_v3_1_context.py:18: in <module>
+    from brain.contextual_planner import ContextualPlanner
+brain\contextual_planner.py:23: in <module>
+    from brain.llm.llm_client import LLMClient
+brain\llm\llm_client.py:15: in <module>
+    from config import GROQ_MODEL, LLM_URL, get_action_list
+E   ImportError: cannot import name 'LLM_URL' from 'config' (D:\Aegis\config.py)
+_____________ ERROR collecting tests/test_v3_1_ultimate_suite.py ______________
+ImportError while importing test module 'D:\Aegis\tests\test_v3_1_ultimate_suite.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests\test_v3_1_ultimate_suite.py:24: in <module>
+    from interfaces.cli import AegisCLI
+interfaces\cli.py:15: in <module>
+    from brain.contextual_planner import ContextualPlanner
+brain\contextual_planner.py:23: in <module>
+    from brain.llm.llm_client import LLMClient
+brain\llm\llm_client.py:15: in <module>
+    from config import GROQ_MODEL, LLM_URL, get_action_list
+E   ImportError: cannot import name 'LLM_URL' from 'config' (D:\Aegis\config.py)
+_________________ ERROR collecting tests/test_v3_chaining.py __________________
+ImportError while importing test module 'D:\Aegis\tests\test_v3_chaining.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests\test_v3_chaining.py:17: in <module>
+    from interfaces.cli import AegisCLI
+interfaces\cli.py:15: in <module>
+    from brain.contextual_planner import ContextualPlanner
+brain\contextual_planner.py:23: in <module>
+    from brain.llm.llm_client import LLMClient
+brain\llm\llm_client.py:15: in <module>
+    from config import GROQ_MODEL, LLM_URL, get_action_list
+E   ImportError: cannot import name 'LLM_URL' from 'config' (D:\Aegis\config.py)
+=========================== short test summary info ===========================
+ERROR tests/test_aegis_ultimate_500.py
+ERROR tests/test_aegis_v3_2_ultimate_500.py
+ERROR tests/test_aegis_v3_3_ultimate_500.py
+ERROR tests/test_aegis_v3_3_ultimate_matrix.py
+ERROR tests/test_aegis_v3_5_human_suite.py
+ERROR tests/test_cli_flow.py
+ERROR tests/test_contextual_planner.py
+ERROR tests/test_integration.py
+ERROR tests/test_llm_offline_mode.py
+ERROR tests/test_v3_1_context.py
+ERROR tests/test_v3_1_ultimate_suite.py
+ERROR tests/test_v3_chaining.py
+!!!!!!!!!!!!!!!!!! Interrupted: 12 errors during collection !!!!!!!!!!!!!!!!!!!
+============================= 12 errors in 1.32s ==============================

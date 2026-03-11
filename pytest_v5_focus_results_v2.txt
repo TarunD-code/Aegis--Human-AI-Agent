@@ -1,0 +1,23 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.13.2, pytest-7.4.0, pluggy-1.6.0 -- D:\Aegis\venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: D:\Aegis
+plugins: anyio-4.12.1
+collecting ... collected 3 items
+
+tests/v5/test_window_focus.py::TestWindowFocusV5::test_focus_exact_match PASSED [ 33%]
+tests/v5/test_window_focus.py::TestWindowFocusV5::test_focus_multiple_windows_priority FAILED [ 66%]
+tests/v5/test_window_focus.py::TestWindowFocusV5::test_focus_fallback_triggered PASSED [100%]
+
+================================== FAILURES ===================================
+___________ TestWindowFocusV5.test_focus_multiple_windows_priority ____________
+tests\v5\test_window_focus.py:58: in test_focus_multiple_windows_priority
+    mock_activate.assert_called_with(102)
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py:977: in assert_called_with
+    raise AssertionError(_error_message()) from cause
+E   AssertionError: expected call not found.
+E   Expected: _activate_window(102)
+E     Actual: _activate_window(103)
+=========================== short test summary info ===========================
+FAILED tests/v5/test_window_focus.py::TestWindowFocusV5::test_focus_multiple_windows_priority
+========================= 1 failed, 2 passed in 4.02s =========================

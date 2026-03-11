@@ -1,0 +1,24 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.13.2, pytest-7.4.0, pluggy-1.6.0 -- D:\Aegis\venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: D:\Aegis
+plugins: anyio-4.12.1
+collecting ... collected 6 items
+
+tests/v5/test_working_memory_v5_3.py::TestWorkingMemoryV5_3::test_set_get_mechanics PASSED [ 16%]
+tests/v5/test_working_memory_v5_3.py::TestWorkingMemoryV5_3::test_reset_mechanics PASSED [ 33%]
+tests/v5/test_working_memory_v5_3.py::TestWorkingMemoryV5_3::test_get_all PASSED [ 50%]
+tests/behavioral/test_memory_chaining_v5_3.py::TestMemoryChainingV5_3::test_compute_result_updates_working_memory PASSED [ 66%]
+tests/behavioral/test_memory_chaining_v5_3.py::TestMemoryChainingV5_3::test_type_text_updates_working_memory FAILED [ 83%]
+tests/behavioral/test_memory_chaining_v5_3.py::TestMemoryChainingV5_3::test_planner_receives_working_memory PASSED [100%]
+
+================================== FAILURES ===================================
+________ TestMemoryChainingV5_3.test_type_text_updates_working_memory _________
+tests\behavioral\test_memory_chaining_v5_3.py:42: in test_type_text_updates_working_memory
+    assert working_memory.get("active_application") == "Notepad"
+E   AssertionError: assert None == 'Notepad'
+E    +  where None = <bound method WorkingMemory.get of <memory.working_memory.WorkingMemory object at 0x000001BD33712EA0>>('active_application')
+E    +    where <bound method WorkingMemory.get of <memory.working_memory.WorkingMemory object at 0x000001BD33712EA0>> = <memory.working_memory.WorkingMemory object at 0x000001BD33712EA0>.get
+=========================== short test summary info ===========================
+FAILED tests/behavioral/test_memory_chaining_v5_3.py::TestMemoryChainingV5_3::test_type_text_updates_working_memory
+========================= 1 failed, 5 passed in 7.55s =========================

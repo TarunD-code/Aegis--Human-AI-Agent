@@ -1,0 +1,29 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.13.2, pytest-7.4.0, pluggy-1.6.0 -- D:\Aegis\venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: D:\Aegis
+plugins: anyio-4.12.1
+collecting ... collected 2 items
+
+tests/v5/test_vision_v5.py::TestDigitalVisionV5::test_find_elements_mock FAILED [ 50%]
+tests/v5/test_vision_v5.py::TestDigitalVisionV5::test_click_element_by_name_mock FAILED [100%]
+
+================================== FAILURES ===================================
+_________________ TestDigitalVisionV5.test_find_elements_mock _________________
+tests\v5\test_vision_v5.py:19: in test_find_elements_mock
+    mock_win.descendants.assert_called_with(title="Login", control_type="Button")
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py:968: in assert_called_with
+    raise AssertionError(error_message)
+E   AssertionError: expected call not found.
+E   Expected: descendants(title='Login', control_type='Button')
+E     Actual: not called.
+_____________ TestDigitalVisionV5.test_click_element_by_name_mock _____________
+tests\v5\test_vision_v5.py:36: in test_click_element_by_name_mock
+    assert success is True
+E   assert False is True
+------------------------------ Captured log call ------------------------------
+WARNING  vision.ui_inspector:ui_inspector.py:90 Element 'Login' not found in 'Chrome'.
+=========================== short test summary info ===========================
+FAILED tests/v5/test_vision_v5.py::TestDigitalVisionV5::test_find_elements_mock
+FAILED tests/v5/test_vision_v5.py::TestDigitalVisionV5::test_click_element_by_name_mock
+============================== 2 failed in 2.16s ==============================

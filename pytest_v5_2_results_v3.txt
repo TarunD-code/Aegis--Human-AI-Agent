@@ -1,0 +1,16 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.13.2, pytest-7.4.0, pluggy-1.6.0 -- D:\Aegis\venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: D:\Aegis
+plugins: anyio-4.12.1
+collecting ... collected 7 items
+
+tests/v5/test_conversation_engine_v5_2.py::TestConversationEngine::test_reference_resolution_it PASSED [ 14%]
+tests/v5/test_conversation_engine_v5_2.py::TestConversationEngine::test_reference_resolution_previous_result PASSED [ 28%]
+tests/v5/test_conversation_engine_v5_2.py::TestConversationEngine::test_continuity_write_again PASSED [ 42%]
+tests/v5/test_conversation_engine_v5_2.py::TestConversationEngine::test_continuity_do_it_again PASSED [ 57%]
+tests/v5/test_conversation_engine_v5_2.py::TestConversationEngine::test_continuity_continue PASSED [ 71%]
+tests/behavioral/test_conversational_flows_v5_2.py::TestConversationalFlowsV5_2::test_multi_turn_calculation_flow PASSED [ 85%]
+tests/behavioral/test_conversational_flows_v5_2.py::TestConversationalFlowsV5_2::test_write_again_flow PASSED [100%]
+
+============================== 7 passed in 1.42s ==============================

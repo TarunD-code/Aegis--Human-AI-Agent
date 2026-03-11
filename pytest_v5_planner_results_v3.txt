@@ -1,0 +1,12 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.13.2, pytest-7.4.0, pluggy-1.6.0 -- D:\Aegis\venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: D:\Aegis
+plugins: anyio-4.12.1
+collecting ... collected 3 items
+
+tests/v5/test_planner_v5.py::TestPlannerV5::test_planner_regenerates_once PASSED [ 33%]
+tests/v5/test_planner_v5.py::TestPlannerV5::test_planner_never_regenerates_twice PASSED [ 66%]
+tests/v5/test_planner_v5.py::TestPlannerV5::test_planner_accepts_valid_immediately PASSED [100%]
+
+============================== 3 passed in 1.49s ==============================

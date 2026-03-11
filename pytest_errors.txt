@@ -1,0 +1,1720 @@
+........................................................................ [  3%]
+........................................................................ [  6%]
+........................................................................ [ 10%]
+..................................FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF [ 13%]
+FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF.......... [ 17%]
+........................................................................ [ 20%]
+........................................................................ [ 24%]
+................F....................................................... [ 27%]
+........................................................................ [ 31%]
+........................................................................ [ 34%]
+..FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF............... [ 38%]
+........................................................................ [ 41%]
+........................................................................ [ 45%]
+........................................................................ [ 48%]
+........................................................................ [ 52%]
+........................................................................ [ 55%]
+........................................................................ [ 59%]
+........................................................................ [ 62%]
+........................................................................ [ 66%]
+........................................................................ [ 69%]
+........................................................................ [ 73%]
+........................................................................ [ 76%]
+........................................................................ [ 80%]
+........................................................................ [ 83%]
+...............FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF [ 86%]
+FFF..................................................FFFFFFFFFFFFFFFFFFF [ 90%]
+FFFFFFFFFFFFFFFFFFFFF................................................... [ 93%]
+..............................FFFFFFF.F....FF.FFFFFFFFF.FFF............. [ 97%]
+..................F.F...FF...FF......................                    [100%]
+================================== FAILURES ===================================
+__ test_daily_memory_ultimate[Chrome-open_application-command_0-result_0-0] ___
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+____ test_daily_memory_ultimate[Calculator-type_text-command_1-result_1-1] ____
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+_____ test_daily_memory_ultimate[Notepad-press_key-command_2-result_2-2] ______
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+____ test_daily_memory_ultimate[Word-compute_result-command_3-result_3-3] _____
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+_ test_daily_memory_ultimate[Explorer-open_application-command_4-result_4-4] __
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+______ test_daily_memory_ultimate[Chrome-type_text-command_5-result_5-5] ______
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+____ test_daily_memory_ultimate[Calculator-press_key-command_6-result_6-6] ____
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+___ test_daily_memory_ultimate[Notepad-compute_result-command_7-result_7-7] ___
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+___ test_daily_memory_ultimate[Word-open_application-command_8-result_8-8] ____
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+_____ test_daily_memory_ultimate[Explorer-type_text-command_9-result_9-9] _____
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+____ test_daily_memory_ultimate[Chrome-press_key-command_10-result_10-10] _____
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+_ test_daily_memory_ultimate[Calculator-compute_result-command_11-result_11-11] _
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+_ test_daily_memory_ultimate[Notepad-open_application-command_12-result_12-12] _
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+_____ test_daily_memory_ultimate[Word-type_text-command_13-result_13-13] ______
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+___ test_daily_memory_ultimate[Explorer-press_key-command_14-result_14-14] ____
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+__ test_daily_memory_ultimate[Chrome-compute_result-command_15-result_15-15] __
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+_ test_daily_memory_ultimate[Calculator-open_application-command_16-result_16-16] _
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+____ test_daily_memory_ultimate[Notepad-type_text-command_17-result_17-17] ____
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+_____ test_daily_memory_ultimate[Word-press_key-command_18-result_18-18] ______
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+_ test_daily_memory_ultimate[Explorer-compute_result-command_19-result_19-19] _
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+_ test_daily_memory_ultimate[Chrome-open_application-command_20-result_20-20] _
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+__ test_daily_memory_ultimate[Calculator-type_text-command_21-result_21-21] ___
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+____ test_daily_memory_ultimate[Notepad-press_key-command_22-result_22-22] ____
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+___ test_daily_memory_ultimate[Word-compute_result-command_23-result_23-23] ___
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+_ test_daily_memory_ultimate[Explorer-open_application-command_24-result_24-24] _
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+____ test_daily_memory_ultimate[Chrome-type_text-command_25-result_25-25] _____
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+__ test_daily_memory_ultimate[Calculator-press_key-command_26-result_26-26] ___
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+_ test_daily_memory_ultimate[Notepad-compute_result-command_27-result_27-27] __
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+__ test_daily_memory_ultimate[Word-open_application-command_28-result_28-28] __
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+___ test_daily_memory_ultimate[Explorer-type_text-command_29-result_29-29] ____
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+____ test_daily_memory_ultimate[Chrome-press_key-command_30-result_30-30] _____
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+_ test_daily_memory_ultimate[Calculator-compute_result-command_31-result_31-31] _
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+_ test_daily_memory_ultimate[Notepad-open_application-command_32-result_32-32] _
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+_____ test_daily_memory_ultimate[Word-type_text-command_33-result_33-33] ______
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+___ test_daily_memory_ultimate[Explorer-press_key-command_34-result_34-34] ____
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+__ test_daily_memory_ultimate[Chrome-compute_result-command_35-result_35-35] __
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+_ test_daily_memory_ultimate[Calculator-open_application-command_36-result_36-36] _
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+____ test_daily_memory_ultimate[Notepad-type_text-command_37-result_37-37] ____
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+_____ test_daily_memory_ultimate[Word-press_key-command_38-result_38-38] ______
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+_ test_daily_memory_ultimate[Explorer-compute_result-command_39-result_39-39] _
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+_ test_daily_memory_ultimate[Chrome-open_application-command_40-result_40-40] _
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+__ test_daily_memory_ultimate[Calculator-type_text-command_41-result_41-41] ___
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+____ test_daily_memory_ultimate[Notepad-press_key-command_42-result_42-42] ____
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+___ test_daily_memory_ultimate[Word-compute_result-command_43-result_43-43] ___
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+_ test_daily_memory_ultimate[Explorer-open_application-command_44-result_44-44] _
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+____ test_daily_memory_ultimate[Chrome-type_text-command_45-result_45-45] _____
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+__ test_daily_memory_ultimate[Calculator-press_key-command_46-result_46-46] ___
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+_ test_daily_memory_ultimate[Notepad-compute_result-command_47-result_47-47] __
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+__ test_daily_memory_ultimate[Word-open_application-command_48-result_48-48] __
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+___ test_daily_memory_ultimate[Explorer-type_text-command_49-result_49-49] ____
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+____ test_daily_memory_ultimate[Chrome-press_key-command_50-result_50-50] _____
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+_ test_daily_memory_ultimate[Calculator-compute_result-command_51-result_51-51] _
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+_ test_daily_memory_ultimate[Notepad-open_application-command_52-result_52-52] _
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+_____ test_daily_memory_ultimate[Word-type_text-command_53-result_53-53] ______
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+___ test_daily_memory_ultimate[Explorer-press_key-command_54-result_54-54] ____
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+__ test_daily_memory_ultimate[Chrome-compute_result-command_55-result_55-55] __
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+_ test_daily_memory_ultimate[Calculator-open_application-command_56-result_56-56] _
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+____ test_daily_memory_ultimate[Notepad-type_text-command_57-result_57-57] ____
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+_____ test_daily_memory_ultimate[Word-press_key-command_58-result_58-58] ______
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+_ test_daily_memory_ultimate[Explorer-compute_result-command_59-result_59-59] _
+tests\test_aegis_ultimate_500.py:77: in test_daily_memory_ultimate
+    history = mem.get_daily_history(today, app=app)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'app'
+_____________ test_learning_adaptation[Don't clear the screen-0] ______________
+tests\test_aegis_ultimate_500.py:106: in test_learning_adaptation
+    prompt = planner._build_enriched_prompt("test", {"recent_rejected": mem.get_recent_rejected()})
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+__________________ test_learning_adaptation[Reuse the tab-1] __________________
+tests\test_aegis_ultimate_500.py:106: in test_learning_adaptation
+    prompt = planner._build_enriched_prompt("test", {"recent_rejected": mem.get_recent_rejected()})
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+_______________ test_learning_adaptation[Open Word directly-2] ________________
+tests\test_aegis_ultimate_500.py:106: in test_learning_adaptation
+    prompt = planner._build_enriched_prompt("test", {"recent_rejected": mem.get_recent_rejected()})
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+______________ test_learning_adaptation[Skip the waiting step-3] ______________
+tests\test_aegis_ultimate_500.py:106: in test_learning_adaptation
+    prompt = planner._build_enriched_prompt("test", {"recent_rejected": mem.get_recent_rejected()})
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+__________________ test_learning_adaptation[Use dark mode-4] __________________
+tests\test_aegis_ultimate_500.py:106: in test_learning_adaptation
+    prompt = planner._build_enriched_prompt("test", {"recent_rejected": mem.get_recent_rejected()})
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+_____________ test_learning_adaptation[Don't clear the screen-5] ______________
+tests\test_aegis_ultimate_500.py:106: in test_learning_adaptation
+    prompt = planner._build_enriched_prompt("test", {"recent_rejected": mem.get_recent_rejected()})
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+__________________ test_learning_adaptation[Reuse the tab-6] __________________
+tests\test_aegis_ultimate_500.py:106: in test_learning_adaptation
+    prompt = planner._build_enriched_prompt("test", {"recent_rejected": mem.get_recent_rejected()})
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+_______________ test_learning_adaptation[Open Word directly-7] ________________
+tests\test_aegis_ultimate_500.py:106: in test_learning_adaptation
+    prompt = planner._build_enriched_prompt("test", {"recent_rejected": mem.get_recent_rejected()})
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+______________ test_learning_adaptation[Skip the waiting step-8] ______________
+tests\test_aegis_ultimate_500.py:106: in test_learning_adaptation
+    prompt = planner._build_enriched_prompt("test", {"recent_rejected": mem.get_recent_rejected()})
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+__________________ test_learning_adaptation[Use dark mode-9] __________________
+tests\test_aegis_ultimate_500.py:106: in test_learning_adaptation
+    prompt = planner._build_enriched_prompt("test", {"recent_rejected": mem.get_recent_rejected()})
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+_____________ test_learning_adaptation[Don't clear the screen-10] _____________
+tests\test_aegis_ultimate_500.py:106: in test_learning_adaptation
+    prompt = planner._build_enriched_prompt("test", {"recent_rejected": mem.get_recent_rejected()})
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+_________________ test_learning_adaptation[Reuse the tab-11] __________________
+tests\test_aegis_ultimate_500.py:106: in test_learning_adaptation
+    prompt = planner._build_enriched_prompt("test", {"recent_rejected": mem.get_recent_rejected()})
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+_______________ test_learning_adaptation[Open Word directly-12] _______________
+tests\test_aegis_ultimate_500.py:106: in test_learning_adaptation
+    prompt = planner._build_enriched_prompt("test", {"recent_rejected": mem.get_recent_rejected()})
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+_____________ test_learning_adaptation[Skip the waiting step-13] ______________
+tests\test_aegis_ultimate_500.py:106: in test_learning_adaptation
+    prompt = planner._build_enriched_prompt("test", {"recent_rejected": mem.get_recent_rejected()})
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+_________________ test_learning_adaptation[Use dark mode-14] __________________
+tests\test_aegis_ultimate_500.py:106: in test_learning_adaptation
+    prompt = planner._build_enriched_prompt("test", {"recent_rejected": mem.get_recent_rejected()})
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+_____________ test_learning_adaptation[Don't clear the screen-15] _____________
+tests\test_aegis_ultimate_500.py:106: in test_learning_adaptation
+    prompt = planner._build_enriched_prompt("test", {"recent_rejected": mem.get_recent_rejected()})
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+_________________ test_learning_adaptation[Reuse the tab-16] __________________
+tests\test_aegis_ultimate_500.py:106: in test_learning_adaptation
+    prompt = planner._build_enriched_prompt("test", {"recent_rejected": mem.get_recent_rejected()})
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+_______________ test_learning_adaptation[Open Word directly-17] _______________
+tests\test_aegis_ultimate_500.py:106: in test_learning_adaptation
+    prompt = planner._build_enriched_prompt("test", {"recent_rejected": mem.get_recent_rejected()})
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+_____________ test_learning_adaptation[Skip the waiting step-18] ______________
+tests\test_aegis_ultimate_500.py:106: in test_learning_adaptation
+    prompt = planner._build_enriched_prompt("test", {"recent_rejected": mem.get_recent_rejected()})
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+_________________ test_learning_adaptation[Use dark mode-19] __________________
+tests\test_aegis_ultimate_500.py:106: in test_learning_adaptation
+    prompt = planner._build_enriched_prompt("test", {"recent_rejected": mem.get_recent_rejected()})
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+_____________ test_learning_adaptation[Don't clear the screen-20] _____________
+tests\test_aegis_ultimate_500.py:106: in test_learning_adaptation
+    prompt = planner._build_enriched_prompt("test", {"recent_rejected": mem.get_recent_rejected()})
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+_________________ test_learning_adaptation[Reuse the tab-21] __________________
+tests\test_aegis_ultimate_500.py:106: in test_learning_adaptation
+    prompt = planner._build_enriched_prompt("test", {"recent_rejected": mem.get_recent_rejected()})
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+_______________ test_learning_adaptation[Open Word directly-22] _______________
+tests\test_aegis_ultimate_500.py:106: in test_learning_adaptation
+    prompt = planner._build_enriched_prompt("test", {"recent_rejected": mem.get_recent_rejected()})
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+_____________ test_learning_adaptation[Skip the waiting step-23] ______________
+tests\test_aegis_ultimate_500.py:106: in test_learning_adaptation
+    prompt = planner._build_enriched_prompt("test", {"recent_rejected": mem.get_recent_rejected()})
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+_________________ test_learning_adaptation[Use dark mode-24] __________________
+tests\test_aegis_ultimate_500.py:106: in test_learning_adaptation
+    prompt = planner._build_enriched_prompt("test", {"recent_rejected": mem.get_recent_rejected()})
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+_____________ test_learning_adaptation[Don't clear the screen-25] _____________
+tests\test_aegis_ultimate_500.py:106: in test_learning_adaptation
+    prompt = planner._build_enriched_prompt("test", {"recent_rejected": mem.get_recent_rejected()})
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+_________________ test_learning_adaptation[Reuse the tab-26] __________________
+tests\test_aegis_ultimate_500.py:106: in test_learning_adaptation
+    prompt = planner._build_enriched_prompt("test", {"recent_rejected": mem.get_recent_rejected()})
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+_______________ test_learning_adaptation[Open Word directly-27] _______________
+tests\test_aegis_ultimate_500.py:106: in test_learning_adaptation
+    prompt = planner._build_enriched_prompt("test", {"recent_rejected": mem.get_recent_rejected()})
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+_____________ test_learning_adaptation[Skip the waiting step-28] ______________
+tests\test_aegis_ultimate_500.py:106: in test_learning_adaptation
+    prompt = planner._build_enriched_prompt("test", {"recent_rejected": mem.get_recent_rejected()})
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+_________________ test_learning_adaptation[Use dark mode-29] __________________
+tests\test_aegis_ultimate_500.py:106: in test_learning_adaptation
+    prompt = planner._build_enriched_prompt("test", {"recent_rejected": mem.get_recent_rejected()})
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+_____________ test_learning_adaptation[Don't clear the screen-30] _____________
+tests\test_aegis_ultimate_500.py:106: in test_learning_adaptation
+    prompt = planner._build_enriched_prompt("test", {"recent_rejected": mem.get_recent_rejected()})
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+_________________ test_learning_adaptation[Reuse the tab-31] __________________
+tests\test_aegis_ultimate_500.py:106: in test_learning_adaptation
+    prompt = planner._build_enriched_prompt("test", {"recent_rejected": mem.get_recent_rejected()})
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+_______________ test_learning_adaptation[Open Word directly-32] _______________
+tests\test_aegis_ultimate_500.py:106: in test_learning_adaptation
+    prompt = planner._build_enriched_prompt("test", {"recent_rejected": mem.get_recent_rejected()})
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+_____________ test_learning_adaptation[Skip the waiting step-33] ______________
+tests\test_aegis_ultimate_500.py:106: in test_learning_adaptation
+    prompt = planner._build_enriched_prompt("test", {"recent_rejected": mem.get_recent_rejected()})
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+_________________ test_learning_adaptation[Use dark mode-34] __________________
+tests\test_aegis_ultimate_500.py:106: in test_learning_adaptation
+    prompt = planner._build_enriched_prompt("test", {"recent_rejected": mem.get_recent_rejected()})
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+_____________ test_learning_adaptation[Don't clear the screen-35] _____________
+tests\test_aegis_ultimate_500.py:106: in test_learning_adaptation
+    prompt = planner._build_enriched_prompt("test", {"recent_rejected": mem.get_recent_rejected()})
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+_________________ test_learning_adaptation[Reuse the tab-36] __________________
+tests\test_aegis_ultimate_500.py:106: in test_learning_adaptation
+    prompt = planner._build_enriched_prompt("test", {"recent_rejected": mem.get_recent_rejected()})
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+_______________ test_learning_adaptation[Open Word directly-37] _______________
+tests\test_aegis_ultimate_500.py:106: in test_learning_adaptation
+    prompt = planner._build_enriched_prompt("test", {"recent_rejected": mem.get_recent_rejected()})
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+_____________ test_learning_adaptation[Skip the waiting step-38] ______________
+tests\test_aegis_ultimate_500.py:106: in test_learning_adaptation
+    prompt = planner._build_enriched_prompt("test", {"recent_rejected": mem.get_recent_rejected()})
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+_________________ test_learning_adaptation[Use dark mode-39] __________________
+tests\test_aegis_ultimate_500.py:106: in test_learning_adaptation
+    prompt = planner._build_enriched_prompt("test", {"recent_rejected": mem.get_recent_rejected()})
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+__________________________ test_multi_day_retrieval ___________________________
+tests\test_aegis_ultimate_500.py:173: in test_multi_day_retrieval
+    with mem._connect() as conn:
+E   AttributeError: 'MemoryManager' object has no attribute '_connect'
+_____________ test_timeline_categorization_v3_2[Chrome-Browser-0] _____________
+tests\test_aegis_v3_2_ultimate_500.py:78: in test_timeline_categorization_v3_2
+    history = mem.get_daily_history(today, category=cat)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+_____________ test_timeline_categorization_v3_2[Notepad-Editor-1] _____________
+tests\test_aegis_v3_2_ultimate_500.py:78: in test_timeline_categorization_v3_2
+    history = mem.get_daily_history(today, category=cat)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+___________ test_timeline_categorization_v3_2[Calculator-Utility-2] ___________
+tests\test_aegis_v3_2_ultimate_500.py:78: in test_timeline_categorization_v3_2
+    history = mem.get_daily_history(today, category=cat)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________ test_timeline_categorization_v3_2[Excel-Office-3] ______________
+tests\test_aegis_v3_2_ultimate_500.py:78: in test_timeline_categorization_v3_2
+    history = mem.get_daily_history(today, category=cat)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+____________ test_timeline_categorization_v3_2[Explorer-System-4] _____________
+tests\test_aegis_v3_2_ultimate_500.py:78: in test_timeline_categorization_v3_2
+    history = mem.get_daily_history(today, category=cat)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+_____________ test_timeline_categorization_v3_2[Chrome-Browser-5] _____________
+tests\test_aegis_v3_2_ultimate_500.py:78: in test_timeline_categorization_v3_2
+    history = mem.get_daily_history(today, category=cat)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+_____________ test_timeline_categorization_v3_2[Notepad-Editor-6] _____________
+tests\test_aegis_v3_2_ultimate_500.py:78: in test_timeline_categorization_v3_2
+    history = mem.get_daily_history(today, category=cat)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+___________ test_timeline_categorization_v3_2[Calculator-Utility-7] ___________
+tests\test_aegis_v3_2_ultimate_500.py:78: in test_timeline_categorization_v3_2
+    history = mem.get_daily_history(today, category=cat)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________ test_timeline_categorization_v3_2[Excel-Office-8] ______________
+tests\test_aegis_v3_2_ultimate_500.py:78: in test_timeline_categorization_v3_2
+    history = mem.get_daily_history(today, category=cat)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+____________ test_timeline_categorization_v3_2[Explorer-System-9] _____________
+tests\test_aegis_v3_2_ultimate_500.py:78: in test_timeline_categorization_v3_2
+    history = mem.get_daily_history(today, category=cat)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+____________ test_timeline_categorization_v3_2[Chrome-Browser-10] _____________
+tests\test_aegis_v3_2_ultimate_500.py:78: in test_timeline_categorization_v3_2
+    history = mem.get_daily_history(today, category=cat)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+____________ test_timeline_categorization_v3_2[Notepad-Editor-11] _____________
+tests\test_aegis_v3_2_ultimate_500.py:78: in test_timeline_categorization_v3_2
+    history = mem.get_daily_history(today, category=cat)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+__________ test_timeline_categorization_v3_2[Calculator-Utility-12] ___________
+tests\test_aegis_v3_2_ultimate_500.py:78: in test_timeline_categorization_v3_2
+    history = mem.get_daily_history(today, category=cat)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+_____________ test_timeline_categorization_v3_2[Excel-Office-13] ______________
+tests\test_aegis_v3_2_ultimate_500.py:78: in test_timeline_categorization_v3_2
+    history = mem.get_daily_history(today, category=cat)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+____________ test_timeline_categorization_v3_2[Explorer-System-14] ____________
+tests\test_aegis_v3_2_ultimate_500.py:78: in test_timeline_categorization_v3_2
+    history = mem.get_daily_history(today, category=cat)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+____________ test_timeline_categorization_v3_2[Chrome-Browser-15] _____________
+tests\test_aegis_v3_2_ultimate_500.py:78: in test_timeline_categorization_v3_2
+    history = mem.get_daily_history(today, category=cat)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+____________ test_timeline_categorization_v3_2[Notepad-Editor-16] _____________
+tests\test_aegis_v3_2_ultimate_500.py:78: in test_timeline_categorization_v3_2
+    history = mem.get_daily_history(today, category=cat)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+__________ test_timeline_categorization_v3_2[Calculator-Utility-17] ___________
+tests\test_aegis_v3_2_ultimate_500.py:78: in test_timeline_categorization_v3_2
+    history = mem.get_daily_history(today, category=cat)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+_____________ test_timeline_categorization_v3_2[Excel-Office-18] ______________
+tests\test_aegis_v3_2_ultimate_500.py:78: in test_timeline_categorization_v3_2
+    history = mem.get_daily_history(today, category=cat)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+____________ test_timeline_categorization_v3_2[Explorer-System-19] ____________
+tests\test_aegis_v3_2_ultimate_500.py:78: in test_timeline_categorization_v3_2
+    history = mem.get_daily_history(today, category=cat)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+____________ test_timeline_categorization_v3_2[Chrome-Browser-20] _____________
+tests\test_aegis_v3_2_ultimate_500.py:78: in test_timeline_categorization_v3_2
+    history = mem.get_daily_history(today, category=cat)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+____________ test_timeline_categorization_v3_2[Notepad-Editor-21] _____________
+tests\test_aegis_v3_2_ultimate_500.py:78: in test_timeline_categorization_v3_2
+    history = mem.get_daily_history(today, category=cat)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+__________ test_timeline_categorization_v3_2[Calculator-Utility-22] ___________
+tests\test_aegis_v3_2_ultimate_500.py:78: in test_timeline_categorization_v3_2
+    history = mem.get_daily_history(today, category=cat)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+_____________ test_timeline_categorization_v3_2[Excel-Office-23] ______________
+tests\test_aegis_v3_2_ultimate_500.py:78: in test_timeline_categorization_v3_2
+    history = mem.get_daily_history(today, category=cat)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+____________ test_timeline_categorization_v3_2[Explorer-System-24] ____________
+tests\test_aegis_v3_2_ultimate_500.py:78: in test_timeline_categorization_v3_2
+    history = mem.get_daily_history(today, category=cat)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+____________ test_timeline_categorization_v3_2[Chrome-Browser-25] _____________
+tests\test_aegis_v3_2_ultimate_500.py:78: in test_timeline_categorization_v3_2
+    history = mem.get_daily_history(today, category=cat)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+____________ test_timeline_categorization_v3_2[Notepad-Editor-26] _____________
+tests\test_aegis_v3_2_ultimate_500.py:78: in test_timeline_categorization_v3_2
+    history = mem.get_daily_history(today, category=cat)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+__________ test_timeline_categorization_v3_2[Calculator-Utility-27] ___________
+tests\test_aegis_v3_2_ultimate_500.py:78: in test_timeline_categorization_v3_2
+    history = mem.get_daily_history(today, category=cat)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+_____________ test_timeline_categorization_v3_2[Excel-Office-28] ______________
+tests\test_aegis_v3_2_ultimate_500.py:78: in test_timeline_categorization_v3_2
+    history = mem.get_daily_history(today, category=cat)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+____________ test_timeline_categorization_v3_2[Explorer-System-29] ____________
+tests\test_aegis_v3_2_ultimate_500.py:78: in test_timeline_categorization_v3_2
+    history = mem.get_daily_history(today, category=cat)
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+_______________ test_macro_detection_v3_2[Calculator-1 + 1-3-0] _______________
+tests\test_aegis_v3_2_ultimate_500.py:108: in test_macro_detection_v3_2
+    prompt = planner._build_enriched_prompt("What should I do?", context)
+brain\contextual_planner.py:181: in _build_enriched_prompt
+    events.append(f"  - {e['timestamp'].split('T')[1][:5]} [{e['app']}{cat_str}] {e['action_type']}: {e['command']} -> {e['result']}")
+E   KeyError: 'timestamp'
+_________________ test_macro_detection_v3_2[Notepad-Save-4-1] _________________
+tests\test_aegis_v3_2_ultimate_500.py:108: in test_macro_detection_v3_2
+    prompt = planner._build_enriched_prompt("What should I do?", context)
+brain\contextual_planner.py:181: in _build_enriched_prompt
+    events.append(f"  - {e['timestamp'].split('T')[1][:5]} [{e['app']}{cat_str}] {e['action_type']}: {e['command']} -> {e['result']}")
+E   KeyError: 'timestamp'
+________________ test_macro_detection_v3_2[Chrome-Refresh-5-2] ________________
+tests\test_aegis_v3_2_ultimate_500.py:108: in test_macro_detection_v3_2
+    prompt = planner._build_enriched_prompt("What should I do?", context)
+brain\contextual_planner.py:181: in _build_enriched_prompt
+    events.append(f"  - {e['timestamp'].split('T')[1][:5]} [{e['app']}{cat_str}] {e['action_type']}: {e['command']} -> {e['result']}")
+E   KeyError: 'timestamp'
+_______________ test_macro_detection_v3_2[Calculator-1 + 1-3-3] _______________
+tests\test_aegis_v3_2_ultimate_500.py:108: in test_macro_detection_v3_2
+    prompt = planner._build_enriched_prompt("What should I do?", context)
+brain\contextual_planner.py:181: in _build_enriched_prompt
+    events.append(f"  - {e['timestamp'].split('T')[1][:5]} [{e['app']}{cat_str}] {e['action_type']}: {e['command']} -> {e['result']}")
+E   KeyError: 'timestamp'
+_________________ test_macro_detection_v3_2[Notepad-Save-4-4] _________________
+tests\test_aegis_v3_2_ultimate_500.py:108: in test_macro_detection_v3_2
+    prompt = planner._build_enriched_prompt("What should I do?", context)
+brain\contextual_planner.py:181: in _build_enriched_prompt
+    events.append(f"  - {e['timestamp'].split('T')[1][:5]} [{e['app']}{cat_str}] {e['action_type']}: {e['command']} -> {e['result']}")
+E   KeyError: 'timestamp'
+________________ test_macro_detection_v3_2[Chrome-Refresh-5-5] ________________
+tests\test_aegis_v3_2_ultimate_500.py:108: in test_macro_detection_v3_2
+    prompt = planner._build_enriched_prompt("What should I do?", context)
+brain\contextual_planner.py:181: in _build_enriched_prompt
+    events.append(f"  - {e['timestamp'].split('T')[1][:5]} [{e['app']}{cat_str}] {e['action_type']}: {e['command']} -> {e['result']}")
+E   KeyError: 'timestamp'
+_______________ test_macro_detection_v3_2[Calculator-1 + 1-3-6] _______________
+tests\test_aegis_v3_2_ultimate_500.py:108: in test_macro_detection_v3_2
+    prompt = planner._build_enriched_prompt("What should I do?", context)
+brain\contextual_planner.py:181: in _build_enriched_prompt
+    events.append(f"  - {e['timestamp'].split('T')[1][:5]} [{e['app']}{cat_str}] {e['action_type']}: {e['command']} -> {e['result']}")
+E   KeyError: 'timestamp'
+_________________ test_macro_detection_v3_2[Notepad-Save-4-7] _________________
+tests\test_aegis_v3_2_ultimate_500.py:108: in test_macro_detection_v3_2
+    prompt = planner._build_enriched_prompt("What should I do?", context)
+brain\contextual_planner.py:181: in _build_enriched_prompt
+    events.append(f"  - {e['timestamp'].split('T')[1][:5]} [{e['app']}{cat_str}] {e['action_type']}: {e['command']} -> {e['result']}")
+E   KeyError: 'timestamp'
+________________ test_macro_detection_v3_2[Chrome-Refresh-5-8] ________________
+tests\test_aegis_v3_2_ultimate_500.py:108: in test_macro_detection_v3_2
+    prompt = planner._build_enriched_prompt("What should I do?", context)
+brain\contextual_planner.py:181: in _build_enriched_prompt
+    events.append(f"  - {e['timestamp'].split('T')[1][:5]} [{e['app']}{cat_str}] {e['action_type']}: {e['command']} -> {e['result']}")
+E   KeyError: 'timestamp'
+_______________ test_macro_detection_v3_2[Calculator-1 + 1-3-9] _______________
+tests\test_aegis_v3_2_ultimate_500.py:108: in test_macro_detection_v3_2
+    prompt = planner._build_enriched_prompt("What should I do?", context)
+brain\contextual_planner.py:181: in _build_enriched_prompt
+    events.append(f"  - {e['timestamp'].split('T')[1][:5]} [{e['app']}{cat_str}] {e['action_type']}: {e['command']} -> {e['result']}")
+E   KeyError: 'timestamp'
+________________ test_macro_detection_v3_2[Notepad-Save-4-10] _________________
+tests\test_aegis_v3_2_ultimate_500.py:108: in test_macro_detection_v3_2
+    prompt = planner._build_enriched_prompt("What should I do?", context)
+brain\contextual_planner.py:181: in _build_enriched_prompt
+    events.append(f"  - {e['timestamp'].split('T')[1][:5]} [{e['app']}{cat_str}] {e['action_type']}: {e['command']} -> {e['result']}")
+E   KeyError: 'timestamp'
+_______________ test_macro_detection_v3_2[Chrome-Refresh-5-11] ________________
+tests\test_aegis_v3_2_ultimate_500.py:108: in test_macro_detection_v3_2
+    prompt = planner._build_enriched_prompt("What should I do?", context)
+brain\contextual_planner.py:181: in _build_enriched_prompt
+    events.append(f"  - {e['timestamp'].split('T')[1][:5]} [{e['app']}{cat_str}] {e['action_type']}: {e['command']} -> {e['result']}")
+E   KeyError: 'timestamp'
+______________ test_macro_detection_v3_2[Calculator-1 + 1-3-12] _______________
+tests\test_aegis_v3_2_ultimate_500.py:108: in test_macro_detection_v3_2
+    prompt = planner._build_enriched_prompt("What should I do?", context)
+brain\contextual_planner.py:181: in _build_enriched_prompt
+    events.append(f"  - {e['timestamp'].split('T')[1][:5]} [{e['app']}{cat_str}] {e['action_type']}: {e['command']} -> {e['result']}")
+E   KeyError: 'timestamp'
+________________ test_macro_detection_v3_2[Notepad-Save-4-13] _________________
+tests\test_aegis_v3_2_ultimate_500.py:108: in test_macro_detection_v3_2
+    prompt = planner._build_enriched_prompt("What should I do?", context)
+brain\contextual_planner.py:181: in _build_enriched_prompt
+    events.append(f"  - {e['timestamp'].split('T')[1][:5]} [{e['app']}{cat_str}] {e['action_type']}: {e['command']} -> {e['result']}")
+E   KeyError: 'timestamp'
+_______________ test_macro_detection_v3_2[Chrome-Refresh-5-14] ________________
+tests\test_aegis_v3_2_ultimate_500.py:108: in test_macro_detection_v3_2
+    prompt = planner._build_enriched_prompt("What should I do?", context)
+brain\contextual_planner.py:181: in _build_enriched_prompt
+    events.append(f"  - {e['timestamp'].split('T')[1][:5]} [{e['app']}{cat_str}] {e['action_type']}: {e['command']} -> {e['result']}")
+E   KeyError: 'timestamp'
+______________ test_macro_detection_v3_2[Calculator-1 + 1-3-15] _______________
+tests\test_aegis_v3_2_ultimate_500.py:108: in test_macro_detection_v3_2
+    prompt = planner._build_enriched_prompt("What should I do?", context)
+brain\contextual_planner.py:181: in _build_enriched_prompt
+    events.append(f"  - {e['timestamp'].split('T')[1][:5]} [{e['app']}{cat_str}] {e['action_type']}: {e['command']} -> {e['result']}")
+E   KeyError: 'timestamp'
+________________ test_macro_detection_v3_2[Notepad-Save-4-16] _________________
+tests\test_aegis_v3_2_ultimate_500.py:108: in test_macro_detection_v3_2
+    prompt = planner._build_enriched_prompt("What should I do?", context)
+brain\contextual_planner.py:181: in _build_enriched_prompt
+    events.append(f"  - {e['timestamp'].split('T')[1][:5]} [{e['app']}{cat_str}] {e['action_type']}: {e['command']} -> {e['result']}")
+E   KeyError: 'timestamp'
+_______________ test_macro_detection_v3_2[Chrome-Refresh-5-17] ________________
+tests\test_aegis_v3_2_ultimate_500.py:108: in test_macro_detection_v3_2
+    prompt = planner._build_enriched_prompt("What should I do?", context)
+brain\contextual_planner.py:181: in _build_enriched_prompt
+    events.append(f"  - {e['timestamp'].split('T')[1][:5]} [{e['app']}{cat_str}] {e['action_type']}: {e['command']} -> {e['result']}")
+E   KeyError: 'timestamp'
+______________ test_macro_detection_v3_2[Calculator-1 + 1-3-18] _______________
+tests\test_aegis_v3_2_ultimate_500.py:108: in test_macro_detection_v3_2
+    prompt = planner._build_enriched_prompt("What should I do?", context)
+brain\contextual_planner.py:181: in _build_enriched_prompt
+    events.append(f"  - {e['timestamp'].split('T')[1][:5]} [{e['app']}{cat_str}] {e['action_type']}: {e['command']} -> {e['result']}")
+E   KeyError: 'timestamp'
+________________ test_macro_detection_v3_2[Notepad-Save-4-19] _________________
+tests\test_aegis_v3_2_ultimate_500.py:108: in test_macro_detection_v3_2
+    prompt = planner._build_enriched_prompt("What should I do?", context)
+brain\contextual_planner.py:181: in _build_enriched_prompt
+    events.append(f"  - {e['timestamp'].split('T')[1][:5]} [{e['app']}{cat_str}] {e['action_type']}: {e['command']} -> {e['result']}")
+E   KeyError: 'timestamp'
+_______________ test_macro_detection_v3_2[Chrome-Refresh-5-20] ________________
+tests\test_aegis_v3_2_ultimate_500.py:108: in test_macro_detection_v3_2
+    prompt = planner._build_enriched_prompt("What should I do?", context)
+brain\contextual_planner.py:181: in _build_enriched_prompt
+    events.append(f"  - {e['timestamp'].split('T')[1][:5]} [{e['app']}{cat_str}] {e['action_type']}: {e['command']} -> {e['result']}")
+E   KeyError: 'timestamp'
+______________ test_macro_detection_v3_2[Calculator-1 + 1-3-21] _______________
+tests\test_aegis_v3_2_ultimate_500.py:108: in test_macro_detection_v3_2
+    prompt = planner._build_enriched_prompt("What should I do?", context)
+brain\contextual_planner.py:181: in _build_enriched_prompt
+    events.append(f"  - {e['timestamp'].split('T')[1][:5]} [{e['app']}{cat_str}] {e['action_type']}: {e['command']} -> {e['result']}")
+E   KeyError: 'timestamp'
+________________ test_macro_detection_v3_2[Notepad-Save-4-22] _________________
+tests\test_aegis_v3_2_ultimate_500.py:108: in test_macro_detection_v3_2
+    prompt = planner._build_enriched_prompt("What should I do?", context)
+brain\contextual_planner.py:181: in _build_enriched_prompt
+    events.append(f"  - {e['timestamp'].split('T')[1][:5]} [{e['app']}{cat_str}] {e['action_type']}: {e['command']} -> {e['result']}")
+E   KeyError: 'timestamp'
+_______________ test_macro_detection_v3_2[Chrome-Refresh-5-23] ________________
+tests\test_aegis_v3_2_ultimate_500.py:108: in test_macro_detection_v3_2
+    prompt = planner._build_enriched_prompt("What should I do?", context)
+brain\contextual_planner.py:181: in _build_enriched_prompt
+    events.append(f"  - {e['timestamp'].split('T')[1][:5]} [{e['app']}{cat_str}] {e['action_type']}: {e['command']} -> {e['result']}")
+E   KeyError: 'timestamp'
+______________ test_macro_detection_v3_2[Calculator-1 + 1-3-24] _______________
+tests\test_aegis_v3_2_ultimate_500.py:108: in test_macro_detection_v3_2
+    prompt = planner._build_enriched_prompt("What should I do?", context)
+brain\contextual_planner.py:181: in _build_enriched_prompt
+    events.append(f"  - {e['timestamp'].split('T')[1][:5]} [{e['app']}{cat_str}] {e['action_type']}: {e['command']} -> {e['result']}")
+E   KeyError: 'timestamp'
+______________________ test_history_retrieval_matrix[0] _______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[1] _______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[2] _______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[3] _______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[4] _______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[5] _______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[6] _______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[7] _______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[8] _______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[9] _______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[10] ______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[11] ______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[12] ______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[13] ______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[14] ______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[15] ______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[16] ______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[17] ______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[18] ______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[19] ______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[20] ______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[21] ______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[22] ______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[23] ______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[24] ______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[25] ______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[26] ______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[27] ______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[28] ______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[29] ______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[30] ______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[31] ______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[32] ______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[33] ______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[34] ______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[35] ______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[36] ______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[37] ______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[38] ______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[39] ______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[40] ______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[41] ______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[42] ______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[43] ______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[44] ______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[45] ______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[46] ______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[47] ______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[48] ______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[49] ______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[50] ______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[51] ______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[52] ______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[53] ______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[54] ______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[55] ______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[56] ______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[57] ______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[58] ______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+______________________ test_history_retrieval_matrix[59] ______________________
+tests\test_aegis_v3_3_ultimate_matrix.py:192: in test_history_retrieval_matrix
+    hist_today = mem.get_daily_history(today, category="Browser")
+E   TypeError: MemoryManager.get_daily_history() got an unexpected keyword argument 'category'
+________ test_self_learning_matrix[skip_clear-Reject clearing input-0] ________
+tests\test_aegis_v3_3_ultimate_matrix.py:245: in test_self_learning_matrix
+    prompt = planner._build_enriched_prompt("test", context)
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+________ test_self_learning_matrix[reuse_tab-Reject opening new tab-0] ________
+tests\test_aegis_v3_3_ultimate_matrix.py:245: in test_self_learning_matrix
+    prompt = planner._build_enriched_prompt("test", context)
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+_____ test_self_learning_matrix[short_summary-Prefer minimal summaries-0] _____
+tests\test_aegis_v3_3_ultimate_matrix.py:245: in test_self_learning_matrix
+    prompt = planner._build_enriched_prompt("test", context)
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+__ test_self_learning_matrix[year_folders-Prefer year-based organization-0] ___
+tests\test_aegis_v3_3_ultimate_matrix.py:245: in test_self_learning_matrix
+    prompt = planner._build_enriched_prompt("test", context)
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+________ test_self_learning_matrix[skip_clear-Reject clearing input-1] ________
+tests\test_aegis_v3_3_ultimate_matrix.py:245: in test_self_learning_matrix
+    prompt = planner._build_enriched_prompt("test", context)
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+________ test_self_learning_matrix[reuse_tab-Reject opening new tab-1] ________
+tests\test_aegis_v3_3_ultimate_matrix.py:245: in test_self_learning_matrix
+    prompt = planner._build_enriched_prompt("test", context)
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+_____ test_self_learning_matrix[short_summary-Prefer minimal summaries-1] _____
+tests\test_aegis_v3_3_ultimate_matrix.py:245: in test_self_learning_matrix
+    prompt = planner._build_enriched_prompt("test", context)
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+__ test_self_learning_matrix[year_folders-Prefer year-based organization-1] ___
+tests\test_aegis_v3_3_ultimate_matrix.py:245: in test_self_learning_matrix
+    prompt = planner._build_enriched_prompt("test", context)
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+________ test_self_learning_matrix[skip_clear-Reject clearing input-2] ________
+tests\test_aegis_v3_3_ultimate_matrix.py:245: in test_self_learning_matrix
+    prompt = planner._build_enriched_prompt("test", context)
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+________ test_self_learning_matrix[reuse_tab-Reject opening new tab-2] ________
+tests\test_aegis_v3_3_ultimate_matrix.py:245: in test_self_learning_matrix
+    prompt = planner._build_enriched_prompt("test", context)
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+_____ test_self_learning_matrix[short_summary-Prefer minimal summaries-2] _____
+tests\test_aegis_v3_3_ultimate_matrix.py:245: in test_self_learning_matrix
+    prompt = planner._build_enriched_prompt("test", context)
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+__ test_self_learning_matrix[year_folders-Prefer year-based organization-2] ___
+tests\test_aegis_v3_3_ultimate_matrix.py:245: in test_self_learning_matrix
+    prompt = planner._build_enriched_prompt("test", context)
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+________ test_self_learning_matrix[skip_clear-Reject clearing input-3] ________
+tests\test_aegis_v3_3_ultimate_matrix.py:245: in test_self_learning_matrix
+    prompt = planner._build_enriched_prompt("test", context)
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+________ test_self_learning_matrix[reuse_tab-Reject opening new tab-3] ________
+tests\test_aegis_v3_3_ultimate_matrix.py:245: in test_self_learning_matrix
+    prompt = planner._build_enriched_prompt("test", context)
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+_____ test_self_learning_matrix[short_summary-Prefer minimal summaries-3] _____
+tests\test_aegis_v3_3_ultimate_matrix.py:245: in test_self_learning_matrix
+    prompt = planner._build_enriched_prompt("test", context)
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+__ test_self_learning_matrix[year_folders-Prefer year-based organization-3] ___
+tests\test_aegis_v3_3_ultimate_matrix.py:245: in test_self_learning_matrix
+    prompt = planner._build_enriched_prompt("test", context)
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+________ test_self_learning_matrix[skip_clear-Reject clearing input-4] ________
+tests\test_aegis_v3_3_ultimate_matrix.py:245: in test_self_learning_matrix
+    prompt = planner._build_enriched_prompt("test", context)
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+________ test_self_learning_matrix[reuse_tab-Reject opening new tab-4] ________
+tests\test_aegis_v3_3_ultimate_matrix.py:245: in test_self_learning_matrix
+    prompt = planner._build_enriched_prompt("test", context)
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+_____ test_self_learning_matrix[short_summary-Prefer minimal summaries-4] _____
+tests\test_aegis_v3_3_ultimate_matrix.py:245: in test_self_learning_matrix
+    prompt = planner._build_enriched_prompt("test", context)
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+__ test_self_learning_matrix[year_folders-Prefer year-based organization-4] ___
+tests\test_aegis_v3_3_ultimate_matrix.py:245: in test_self_learning_matrix
+    prompt = planner._build_enriched_prompt("test", context)
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+________ test_self_learning_matrix[skip_clear-Reject clearing input-5] ________
+tests\test_aegis_v3_3_ultimate_matrix.py:245: in test_self_learning_matrix
+    prompt = planner._build_enriched_prompt("test", context)
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+________ test_self_learning_matrix[reuse_tab-Reject opening new tab-5] ________
+tests\test_aegis_v3_3_ultimate_matrix.py:245: in test_self_learning_matrix
+    prompt = planner._build_enriched_prompt("test", context)
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+_____ test_self_learning_matrix[short_summary-Prefer minimal summaries-5] _____
+tests\test_aegis_v3_3_ultimate_matrix.py:245: in test_self_learning_matrix
+    prompt = planner._build_enriched_prompt("test", context)
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+__ test_self_learning_matrix[year_folders-Prefer year-based organization-5] ___
+tests\test_aegis_v3_3_ultimate_matrix.py:245: in test_self_learning_matrix
+    prompt = planner._build_enriched_prompt("test", context)
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+________ test_self_learning_matrix[skip_clear-Reject clearing input-6] ________
+tests\test_aegis_v3_3_ultimate_matrix.py:245: in test_self_learning_matrix
+    prompt = planner._build_enriched_prompt("test", context)
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+________ test_self_learning_matrix[reuse_tab-Reject opening new tab-6] ________
+tests\test_aegis_v3_3_ultimate_matrix.py:245: in test_self_learning_matrix
+    prompt = planner._build_enriched_prompt("test", context)
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+_____ test_self_learning_matrix[short_summary-Prefer minimal summaries-6] _____
+tests\test_aegis_v3_3_ultimate_matrix.py:245: in test_self_learning_matrix
+    prompt = planner._build_enriched_prompt("test", context)
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+__ test_self_learning_matrix[year_folders-Prefer year-based organization-6] ___
+tests\test_aegis_v3_3_ultimate_matrix.py:245: in test_self_learning_matrix
+    prompt = planner._build_enriched_prompt("test", context)
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+________ test_self_learning_matrix[skip_clear-Reject clearing input-7] ________
+tests\test_aegis_v3_3_ultimate_matrix.py:245: in test_self_learning_matrix
+    prompt = planner._build_enriched_prompt("test", context)
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+________ test_self_learning_matrix[reuse_tab-Reject opening new tab-7] ________
+tests\test_aegis_v3_3_ultimate_matrix.py:245: in test_self_learning_matrix
+    prompt = planner._build_enriched_prompt("test", context)
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+_____ test_self_learning_matrix[short_summary-Prefer minimal summaries-7] _____
+tests\test_aegis_v3_3_ultimate_matrix.py:245: in test_self_learning_matrix
+    prompt = planner._build_enriched_prompt("test", context)
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+__ test_self_learning_matrix[year_folders-Prefer year-based organization-7] ___
+tests\test_aegis_v3_3_ultimate_matrix.py:245: in test_self_learning_matrix
+    prompt = planner._build_enriched_prompt("test", context)
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+________ test_self_learning_matrix[skip_clear-Reject clearing input-8] ________
+tests\test_aegis_v3_3_ultimate_matrix.py:245: in test_self_learning_matrix
+    prompt = planner._build_enriched_prompt("test", context)
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+________ test_self_learning_matrix[reuse_tab-Reject opening new tab-8] ________
+tests\test_aegis_v3_3_ultimate_matrix.py:245: in test_self_learning_matrix
+    prompt = planner._build_enriched_prompt("test", context)
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+_____ test_self_learning_matrix[short_summary-Prefer minimal summaries-8] _____
+tests\test_aegis_v3_3_ultimate_matrix.py:245: in test_self_learning_matrix
+    prompt = planner._build_enriched_prompt("test", context)
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+__ test_self_learning_matrix[year_folders-Prefer year-based organization-8] ___
+tests\test_aegis_v3_3_ultimate_matrix.py:245: in test_self_learning_matrix
+    prompt = planner._build_enriched_prompt("test", context)
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+________ test_self_learning_matrix[skip_clear-Reject clearing input-9] ________
+tests\test_aegis_v3_3_ultimate_matrix.py:245: in test_self_learning_matrix
+    prompt = planner._build_enriched_prompt("test", context)
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+________ test_self_learning_matrix[reuse_tab-Reject opening new tab-9] ________
+tests\test_aegis_v3_3_ultimate_matrix.py:245: in test_self_learning_matrix
+    prompt = planner._build_enriched_prompt("test", context)
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+_____ test_self_learning_matrix[short_summary-Prefer minimal summaries-9] _____
+tests\test_aegis_v3_3_ultimate_matrix.py:245: in test_self_learning_matrix
+    prompt = planner._build_enriched_prompt("test", context)
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+__ test_self_learning_matrix[year_folders-Prefer year-based organization-9] ___
+tests\test_aegis_v3_3_ultimate_matrix.py:245: in test_self_learning_matrix
+    prompt = planner._build_enriched_prompt("test", context)
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+_________ TestAegisV3_5Cognitive.test_ambiguity_detection_short_query _________
+tests\test_aegis_v3_5_human_suite.py:19: in setUp
+    self.memory_mock.get_user_profile.return_value = {
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py:688: in __getattr__
+    raise AttributeError("Mock object has no attribute %r" % name)
+E   AttributeError: Mock object has no attribute 'get_user_profile'
+____ TestAegisV3_5Cognitive.test_behavioral_adaptation_rejection_learning _____
+tests\test_aegis_v3_5_human_suite.py:19: in setUp
+    self.memory_mock.get_user_profile.return_value = {
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py:688: in __getattr__
+    raise AttributeError("Mock object has no attribute %r" % name)
+E   AttributeError: Mock object has no attribute 'get_user_profile'
+______ TestAegisV3_5Cognitive.test_context_threading_knowledge_injection ______
+tests\test_aegis_v3_5_human_suite.py:19: in setUp
+    self.memory_mock.get_user_profile.return_value = {
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py:688: in __getattr__
+    raise AttributeError("Mock object has no attribute %r" % name)
+E   AttributeError: Mock object has no attribute 'get_user_profile'
+___________ TestAegisV3_5Cognitive.test_executive_reasoning_display ___________
+tests\test_aegis_v3_5_human_suite.py:19: in setUp
+    self.memory_mock.get_user_profile.return_value = {
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py:688: in __getattr__
+    raise AttributeError("Mock object has no attribute %r" % name)
+E   AttributeError: Mock object has no attribute 'get_user_profile'
+_________ TestAegisV3_5Cognitive.test_intent_classification_research __________
+tests\test_aegis_v3_5_human_suite.py:19: in setUp
+    self.memory_mock.get_user_profile.return_value = {
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py:688: in __getattr__
+    raise AttributeError("Mock object has no attribute %r" % name)
+E   AttributeError: Mock object has no attribute 'get_user_profile'
+___________ TestAegisV3_5Cognitive.test_proactive_macro_suggestion ____________
+tests\test_aegis_v3_5_human_suite.py:19: in setUp
+    self.memory_mock.get_user_profile.return_value = {
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py:688: in __getattr__
+    raise AttributeError("Mock object has no attribute %r" % name)
+E   AttributeError: Mock object has no attribute 'get_user_profile'
+__________ TestAegisV3_5Cognitive.test_risk_level_assignment_delete ___________
+tests\test_aegis_v3_5_human_suite.py:19: in setUp
+    self.memory_mock.get_user_profile.return_value = {
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py:688: in __getattr__
+    raise AttributeError("Mock object has no attribute %r" % name)
+E   AttributeError: Mock object has no attribute 'get_user_profile'
+______________ TestContextualPlanner.test_generate_plan_enriched ______________
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py:1421: in patched
+    with self.decoration_helper(patched,
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\contextlib.py:141: in __enter__
+    return next(self.gen)
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py:1403: in decoration_helper
+    arg = exit_stack.enter_context(patching)
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\contextlib.py:530: in enter_context
+    result = _enter(cm)
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py:1495: in __enter__
+    original, local = self.get_original()
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py:1465: in get_original
+    raise AttributeError(
+E   AttributeError: <module 'brain.contextual_planner' from 'D:\\Aegis\\brain\\contextual_planner.py'> does not have the attribute 'GroqClient'
+_________________ TestIntegration.test_full_pipeline_success __________________
+tests\test_integration.py:39: in test_full_pipeline_success
+    from execution.actions.app_actions import ActionResult
+E   ImportError: cannot import name 'ActionResult' from 'execution.actions.app_actions' (D:\Aegis\execution\actions\app_actions.py)
+_______________ TestIntegration.test_pipeline_rejection_storage _______________
+tests\test_integration.py:89: in test_pipeline_rejection_storage
+    mock_memory.store_rejected.assert_called_once()
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py:956: in assert_called_once
+    raise AssertionError(msg)
+E   AssertionError: Expected 'store_rejected' to have been called once. Called 0 times.
+------------------------------ Captured log call ------------------------------
+ERROR    interfaces.cli:cli.py:142 Planning engine failed
+______________________ TestAegisLogger.test_log_request _______________________
+tests\test_logger.py:42: in test_log_request
+    self.logger.log_request("Open Notepad")
+E   AttributeError: 'AegisLogger' object has no attribute 'log_request'
+________________________ TestAegisLogger.test_log_plan ________________________
+tests\test_logger.py:51: in test_log_plan
+    self.logger.log_plan(plan)
+E   AttributeError: 'AegisLogger' object has no attribute 'log_plan'. Did you mean: 'log_ai_plan'?
+______________________ TestAegisLogger.test_log_approval ______________________
+tests\test_logger.py:59: in test_log_approval
+    assert entries[0]["event_type"] == "approval"
+E   AssertionError: assert 'approval_event' == 'approval'
+E     - approval
+E     + approval_event
+_____________________ TestAegisLogger.test_log_execution ______________________
+tests\test_logger.py:64: in test_log_execution
+    self.logger.log_execution(results)
+E   TypeError: AegisLogger.log_execution() missing 2 required positional arguments: 'result' and 'success'
+_______________________ TestAegisLogger.test_log_error ________________________
+tests\test_logger.py:71: in test_log_error
+    assert entries[0]["event_type"] == "error"
+E   AssertionError: assert 'error_event' == 'error'
+E     - error
+E     + error_event
+_______________ TestAegisLogger.test_multiple_entries_appended ________________
+tests\test_logger.py:75: in test_multiple_entries_appended
+    self.logger.log_request("First")
+E   AttributeError: 'AegisLogger' object has no attribute 'log_request'
+_________________ TestAegisLogger.test_log_validation_failure _________________
+tests\test_logger.py:83: in test_log_validation_failure
+    self.logger.log_validation_failure(warnings)
+E   AttributeError: 'AegisLogger' object has no attribute 'log_validation_failure'
+__________________ TestMemoryManager.test_db_initialization ___________________
+tests\test_memory.py:42: in test_db_initialization
+    assert "approved_actions" in tables
+E   AssertionError: assert 'approved_actions' in ['approved_plans', 'rejected_plans', 'daily_history', 'sqlite_sequence', 'app_usage', 'schema_version']
+________________ TestMemoryManager.test_store_and_get_approved ________________
+tests\test_memory.py:55: in test_store_and_get_approved
+    assert recent[0]["plan"]["summary"] == "Test plan"
+E   KeyError: 'plan'
+___________________ TestMemoryManager.test_app_usage_stats ____________________
+tests\test_memory.py:75: in test_app_usage_stats
+    assert freq[0]["app_name"] == "notepad"
+E   KeyError: 0
+_____________________ TestMemoryManager.test_preferences ______________________
+tests\test_memory.py:82: in test_preferences
+    mm.set_preference("theme", "dark")
+E   AttributeError: 'MemoryManager' object has no attribute 'set_preference'
+____________________ TestPreferenceStore.test_typed_access ____________________
+tests\test_memory.py:94: in test_typed_access
+    store.set_bool("auto_approve", True)
+memory\preference_store.py:58: in set_bool
+    self._memory.set_preference(key, "true" if value else "false")
+E   AttributeError: 'MemoryManager' object has no attribute 'set_preference'
+_____________ TestV3_1Features.test_autonomous_learning_injection _____________
+tests\test_v3_1_context.py:87: in test_autonomous_learning_injection
+    prompt = planner._build_enriched_prompt("calculate something", context)
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+________________ TestV3_1Features.test_past_history_retrieval _________________
+tests\test_v3_1_context.py:117: in test_past_history_retrieval
+    with mem._connect() as conn:
+E   AttributeError: 'MemoryManager' object has no attribute '_connect'
+______________ TestV3_1_Ultimate.test_past_date_query_retrieval _______________
+tests\test_v3_1_ultimate_suite.py:87: in test_past_date_query_retrieval
+    with mem._connect() as conn:
+E   AttributeError: 'MemoryManager' object has no attribute '_connect'
+___________ TestV3_1_Ultimate.test_rejection_preference_adaptation ____________
+tests\test_v3_1_ultimate_suite.py:109: in test_rejection_preference_adaptation
+    prompt = planner._build_enriched_prompt("add 50", context)
+brain\contextual_planner.py:240: in _build_enriched_prompt
+    profile = self._memory.get_user_profile()
+E   AttributeError: 'MemoryManager' object has no attribute 'get_user_profile'
+__________________ TestV3Chaining.test_math_result_chaining ___________________
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py:1421: in patched
+    with self.decoration_helper(patched,
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\contextlib.py:141: in __enter__
+    return next(self.gen)
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py:1403: in decoration_helper
+    arg = exit_stack.enter_context(patching)
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\contextlib.py:530: in enter_context
+    result = _enter(cm)
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py:1495: in __enter__
+    original, local = self.get_original()
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py:1465: in get_original
+    raise AttributeError(
+E   AttributeError: <module 'interfaces.cli' from 'D:\\Aegis\\interfaces\\cli.py'> does not have the attribute 'AegisLogger'
+__________________ TestV3Chaining.test_browser_tab_tracking ___________________
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py:1421: in patched
+    with self.decoration_helper(patched,
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\contextlib.py:141: in __enter__
+    return next(self.gen)
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py:1403: in decoration_helper
+    arg = exit_stack.enter_context(patching)
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\contextlib.py:530: in enter_context
+    result = _enter(cm)
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py:1495: in __enter__
+    original, local = self.get_original()
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py:1465: in get_original
+    raise AttributeError(
+E   AttributeError: <module 'interfaces.cli' from 'D:\\Aegis\\interfaces\\cli.py'> does not have the attribute 'AegisLogger'
+=========================== short test summary info ===========================
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Chrome-open_application-command_0-result_0-0]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Calculator-type_text-command_1-result_1-1]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Notepad-press_key-command_2-result_2-2]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Word-compute_result-command_3-result_3-3]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Explorer-open_application-command_4-result_4-4]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Chrome-type_text-command_5-result_5-5]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Calculator-press_key-command_6-result_6-6]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Notepad-compute_result-command_7-result_7-7]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Word-open_application-command_8-result_8-8]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Explorer-type_text-command_9-result_9-9]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Chrome-press_key-command_10-result_10-10]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Calculator-compute_result-command_11-result_11-11]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Notepad-open_application-command_12-result_12-12]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Word-type_text-command_13-result_13-13]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Explorer-press_key-command_14-result_14-14]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Chrome-compute_result-command_15-result_15-15]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Calculator-open_application-command_16-result_16-16]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Notepad-type_text-command_17-result_17-17]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Word-press_key-command_18-result_18-18]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Explorer-compute_result-command_19-result_19-19]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Chrome-open_application-command_20-result_20-20]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Calculator-type_text-command_21-result_21-21]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Notepad-press_key-command_22-result_22-22]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Word-compute_result-command_23-result_23-23]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Explorer-open_application-command_24-result_24-24]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Chrome-type_text-command_25-result_25-25]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Calculator-press_key-command_26-result_26-26]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Notepad-compute_result-command_27-result_27-27]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Word-open_application-command_28-result_28-28]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Explorer-type_text-command_29-result_29-29]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Chrome-press_key-command_30-result_30-30]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Calculator-compute_result-command_31-result_31-31]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Notepad-open_application-command_32-result_32-32]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Word-type_text-command_33-result_33-33]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Explorer-press_key-command_34-result_34-34]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Chrome-compute_result-command_35-result_35-35]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Calculator-open_application-command_36-result_36-36]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Notepad-type_text-command_37-result_37-37]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Word-press_key-command_38-result_38-38]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Explorer-compute_result-command_39-result_39-39]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Chrome-open_application-command_40-result_40-40]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Calculator-type_text-command_41-result_41-41]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Notepad-press_key-command_42-result_42-42]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Word-compute_result-command_43-result_43-43]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Explorer-open_application-command_44-result_44-44]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Chrome-type_text-command_45-result_45-45]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Calculator-press_key-command_46-result_46-46]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Notepad-compute_result-command_47-result_47-47]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Word-open_application-command_48-result_48-48]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Explorer-type_text-command_49-result_49-49]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Chrome-press_key-command_50-result_50-50]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Calculator-compute_result-command_51-result_51-51]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Notepad-open_application-command_52-result_52-52]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Word-type_text-command_53-result_53-53]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Explorer-press_key-command_54-result_54-54]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Chrome-compute_result-command_55-result_55-55]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Calculator-open_application-command_56-result_56-56]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Notepad-type_text-command_57-result_57-57]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Word-press_key-command_58-result_58-58]
+FAILED tests/test_aegis_ultimate_500.py::test_daily_memory_ultimate[Explorer-compute_result-command_59-result_59-59]
+FAILED tests/test_aegis_ultimate_500.py::test_learning_adaptation[Don't clear the screen-0]
+FAILED tests/test_aegis_ultimate_500.py::test_learning_adaptation[Reuse the tab-1]
+FAILED tests/test_aegis_ultimate_500.py::test_learning_adaptation[Open Word directly-2]
+FAILED tests/test_aegis_ultimate_500.py::test_learning_adaptation[Skip the waiting step-3]
+FAILED tests/test_aegis_ultimate_500.py::test_learning_adaptation[Use dark mode-4]
+FAILED tests/test_aegis_ultimate_500.py::test_learning_adaptation[Don't clear the screen-5]
+FAILED tests/test_aegis_ultimate_500.py::test_learning_adaptation[Reuse the tab-6]
+FAILED tests/test_aegis_ultimate_500.py::test_learning_adaptation[Open Word directly-7]
+FAILED tests/test_aegis_ultimate_500.py::test_learning_adaptation[Skip the waiting step-8]
+FAILED tests/test_aegis_ultimate_500.py::test_learning_adaptation[Use dark mode-9]
+FAILED tests/test_aegis_ultimate_500.py::test_learning_adaptation[Don't clear the screen-10]
+FAILED tests/test_aegis_ultimate_500.py::test_learning_adaptation[Reuse the tab-11]
+FAILED tests/test_aegis_ultimate_500.py::test_learning_adaptation[Open Word directly-12]
+FAILED tests/test_aegis_ultimate_500.py::test_learning_adaptation[Skip the waiting step-13]
+FAILED tests/test_aegis_ultimate_500.py::test_learning_adaptation[Use dark mode-14]
+FAILED tests/test_aegis_ultimate_500.py::test_learning_adaptation[Don't clear the screen-15]
+FAILED tests/test_aegis_ultimate_500.py::test_learning_adaptation[Reuse the tab-16]
+FAILED tests/test_aegis_ultimate_500.py::test_learning_adaptation[Open Word directly-17]
+FAILED tests/test_aegis_ultimate_500.py::test_learning_adaptation[Skip the waiting step-18]
+FAILED tests/test_aegis_ultimate_500.py::test_learning_adaptation[Use dark mode-19]
+FAILED tests/test_aegis_ultimate_500.py::test_learning_adaptation[Don't clear the screen-20]
+FAILED tests/test_aegis_ultimate_500.py::test_learning_adaptation[Reuse the tab-21]
+FAILED tests/test_aegis_ultimate_500.py::test_learning_adaptation[Open Word directly-22]
+FAILED tests/test_aegis_ultimate_500.py::test_learning_adaptation[Skip the waiting step-23]
+FAILED tests/test_aegis_ultimate_500.py::test_learning_adaptation[Use dark mode-24]
+FAILED tests/test_aegis_ultimate_500.py::test_learning_adaptation[Don't clear the screen-25]
+FAILED tests/test_aegis_ultimate_500.py::test_learning_adaptation[Reuse the tab-26]
+FAILED tests/test_aegis_ultimate_500.py::test_learning_adaptation[Open Word directly-27]
+FAILED tests/test_aegis_ultimate_500.py::test_learning_adaptation[Skip the waiting step-28]
+FAILED tests/test_aegis_ultimate_500.py::test_learning_adaptation[Use dark mode-29]
+FAILED tests/test_aegis_ultimate_500.py::test_learning_adaptation[Don't clear the screen-30]
+FAILED tests/test_aegis_ultimate_500.py::test_learning_adaptation[Reuse the tab-31]
+FAILED tests/test_aegis_ultimate_500.py::test_learning_adaptation[Open Word directly-32]
+FAILED tests/test_aegis_ultimate_500.py::test_learning_adaptation[Skip the waiting step-33]
+FAILED tests/test_aegis_ultimate_500.py::test_learning_adaptation[Use dark mode-34]
+FAILED tests/test_aegis_ultimate_500.py::test_learning_adaptation[Don't clear the screen-35]
+FAILED tests/test_aegis_ultimate_500.py::test_learning_adaptation[Reuse the tab-36]
+FAILED tests/test_aegis_ultimate_500.py::test_learning_adaptation[Open Word directly-37]
+FAILED tests/test_aegis_ultimate_500.py::test_learning_adaptation[Skip the waiting step-38]
+FAILED tests/test_aegis_ultimate_500.py::test_learning_adaptation[Use dark mode-39]
+FAILED tests/test_aegis_ultimate_500.py::test_multi_day_retrieval - Attribute...
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_timeline_categorization_v3_2[Chrome-Browser-0]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_timeline_categorization_v3_2[Notepad-Editor-1]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_timeline_categorization_v3_2[Calculator-Utility-2]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_timeline_categorization_v3_2[Excel-Office-3]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_timeline_categorization_v3_2[Explorer-System-4]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_timeline_categorization_v3_2[Chrome-Browser-5]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_timeline_categorization_v3_2[Notepad-Editor-6]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_timeline_categorization_v3_2[Calculator-Utility-7]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_timeline_categorization_v3_2[Excel-Office-8]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_timeline_categorization_v3_2[Explorer-System-9]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_timeline_categorization_v3_2[Chrome-Browser-10]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_timeline_categorization_v3_2[Notepad-Editor-11]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_timeline_categorization_v3_2[Calculator-Utility-12]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_timeline_categorization_v3_2[Excel-Office-13]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_timeline_categorization_v3_2[Explorer-System-14]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_timeline_categorization_v3_2[Chrome-Browser-15]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_timeline_categorization_v3_2[Notepad-Editor-16]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_timeline_categorization_v3_2[Calculator-Utility-17]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_timeline_categorization_v3_2[Excel-Office-18]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_timeline_categorization_v3_2[Explorer-System-19]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_timeline_categorization_v3_2[Chrome-Browser-20]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_timeline_categorization_v3_2[Notepad-Editor-21]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_timeline_categorization_v3_2[Calculator-Utility-22]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_timeline_categorization_v3_2[Excel-Office-23]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_timeline_categorization_v3_2[Explorer-System-24]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_timeline_categorization_v3_2[Chrome-Browser-25]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_timeline_categorization_v3_2[Notepad-Editor-26]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_timeline_categorization_v3_2[Calculator-Utility-27]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_timeline_categorization_v3_2[Excel-Office-28]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_timeline_categorization_v3_2[Explorer-System-29]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_macro_detection_v3_2[Calculator-1 + 1-3-0]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_macro_detection_v3_2[Notepad-Save-4-1]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_macro_detection_v3_2[Chrome-Refresh-5-2]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_macro_detection_v3_2[Calculator-1 + 1-3-3]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_macro_detection_v3_2[Notepad-Save-4-4]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_macro_detection_v3_2[Chrome-Refresh-5-5]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_macro_detection_v3_2[Calculator-1 + 1-3-6]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_macro_detection_v3_2[Notepad-Save-4-7]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_macro_detection_v3_2[Chrome-Refresh-5-8]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_macro_detection_v3_2[Calculator-1 + 1-3-9]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_macro_detection_v3_2[Notepad-Save-4-10]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_macro_detection_v3_2[Chrome-Refresh-5-11]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_macro_detection_v3_2[Calculator-1 + 1-3-12]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_macro_detection_v3_2[Notepad-Save-4-13]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_macro_detection_v3_2[Chrome-Refresh-5-14]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_macro_detection_v3_2[Calculator-1 + 1-3-15]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_macro_detection_v3_2[Notepad-Save-4-16]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_macro_detection_v3_2[Chrome-Refresh-5-17]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_macro_detection_v3_2[Calculator-1 + 1-3-18]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_macro_detection_v3_2[Notepad-Save-4-19]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_macro_detection_v3_2[Chrome-Refresh-5-20]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_macro_detection_v3_2[Calculator-1 + 1-3-21]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_macro_detection_v3_2[Notepad-Save-4-22]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_macro_detection_v3_2[Chrome-Refresh-5-23]
+FAILED tests/test_aegis_v3_2_ultimate_500.py::test_macro_detection_v3_2[Calculator-1 + 1-3-24]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[0]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[1]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[2]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[3]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[4]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[5]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[6]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[7]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[8]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[9]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[10]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[11]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[12]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[13]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[14]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[15]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[16]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[17]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[18]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[19]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[20]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[21]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[22]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[23]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[24]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[25]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[26]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[27]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[28]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[29]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[30]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[31]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[32]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[33]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[34]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[35]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[36]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[37]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[38]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[39]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[40]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[41]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[42]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[43]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[44]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[45]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[46]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[47]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[48]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[49]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[50]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[51]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[52]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[53]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[54]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[55]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[56]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[57]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[58]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_history_retrieval_matrix[59]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_self_learning_matrix[skip_clear-Reject clearing input-0]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_self_learning_matrix[reuse_tab-Reject opening new tab-0]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_self_learning_matrix[short_summary-Prefer minimal summaries-0]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_self_learning_matrix[year_folders-Prefer year-based organization-0]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_self_learning_matrix[skip_clear-Reject clearing input-1]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_self_learning_matrix[reuse_tab-Reject opening new tab-1]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_self_learning_matrix[short_summary-Prefer minimal summaries-1]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_self_learning_matrix[year_folders-Prefer year-based organization-1]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_self_learning_matrix[skip_clear-Reject clearing input-2]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_self_learning_matrix[reuse_tab-Reject opening new tab-2]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_self_learning_matrix[short_summary-Prefer minimal summaries-2]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_self_learning_matrix[year_folders-Prefer year-based organization-2]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_self_learning_matrix[skip_clear-Reject clearing input-3]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_self_learning_matrix[reuse_tab-Reject opening new tab-3]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_self_learning_matrix[short_summary-Prefer minimal summaries-3]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_self_learning_matrix[year_folders-Prefer year-based organization-3]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_self_learning_matrix[skip_clear-Reject clearing input-4]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_self_learning_matrix[reuse_tab-Reject opening new tab-4]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_self_learning_matrix[short_summary-Prefer minimal summaries-4]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_self_learning_matrix[year_folders-Prefer year-based organization-4]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_self_learning_matrix[skip_clear-Reject clearing input-5]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_self_learning_matrix[reuse_tab-Reject opening new tab-5]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_self_learning_matrix[short_summary-Prefer minimal summaries-5]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_self_learning_matrix[year_folders-Prefer year-based organization-5]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_self_learning_matrix[skip_clear-Reject clearing input-6]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_self_learning_matrix[reuse_tab-Reject opening new tab-6]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_self_learning_matrix[short_summary-Prefer minimal summaries-6]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_self_learning_matrix[year_folders-Prefer year-based organization-6]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_self_learning_matrix[skip_clear-Reject clearing input-7]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_self_learning_matrix[reuse_tab-Reject opening new tab-7]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_self_learning_matrix[short_summary-Prefer minimal summaries-7]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_self_learning_matrix[year_folders-Prefer year-based organization-7]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_self_learning_matrix[skip_clear-Reject clearing input-8]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_self_learning_matrix[reuse_tab-Reject opening new tab-8]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_self_learning_matrix[short_summary-Prefer minimal summaries-8]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_self_learning_matrix[year_folders-Prefer year-based organization-8]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_self_learning_matrix[skip_clear-Reject clearing input-9]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_self_learning_matrix[reuse_tab-Reject opening new tab-9]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_self_learning_matrix[short_summary-Prefer minimal summaries-9]
+FAILED tests/test_aegis_v3_3_ultimate_matrix.py::test_self_learning_matrix[year_folders-Prefer year-based organization-9]
+FAILED tests/test_aegis_v3_5_human_suite.py::TestAegisV3_5Cognitive::test_ambiguity_detection_short_query
+FAILED tests/test_aegis_v3_5_human_suite.py::TestAegisV3_5Cognitive::test_behavioral_adaptation_rejection_learning
+FAILED tests/test_aegis_v3_5_human_suite.py::TestAegisV3_5Cognitive::test_context_threading_knowledge_injection
+FAILED tests/test_aegis_v3_5_human_suite.py::TestAegisV3_5Cognitive::test_executive_reasoning_display
+FAILED tests/test_aegis_v3_5_human_suite.py::TestAegisV3_5Cognitive::test_intent_classification_research
+FAILED tests/test_aegis_v3_5_human_suite.py::TestAegisV3_5Cognitive::test_proactive_macro_suggestion
+FAILED tests/test_aegis_v3_5_human_suite.py::TestAegisV3_5Cognitive::test_risk_level_assignment_delete
+FAILED tests/test_contextual_planner.py::TestContextualPlanner::test_generate_plan_enriched
+FAILED tests/test_integration.py::TestIntegration::test_full_pipeline_success
+FAILED tests/test_integration.py::TestIntegration::test_pipeline_rejection_storage
+FAILED tests/test_logger.py::TestAegisLogger::test_log_request - AttributeErr...
+FAILED tests/test_logger.py::TestAegisLogger::test_log_plan - AttributeError:...
+FAILED tests/test_logger.py::TestAegisLogger::test_log_approval - AssertionEr...
+FAILED tests/test_logger.py::TestAegisLogger::test_log_execution - TypeError:...
+FAILED tests/test_logger.py::TestAegisLogger::test_log_error - AssertionError...
+FAILED tests/test_logger.py::TestAegisLogger::test_multiple_entries_appended
+FAILED tests/test_logger.py::TestAegisLogger::test_log_validation_failure - A...
+FAILED tests/test_memory.py::TestMemoryManager::test_db_initialization - Asse...
+FAILED tests/test_memory.py::TestMemoryManager::test_store_and_get_approved
+FAILED tests/test_memory.py::TestMemoryManager::test_app_usage_stats - KeyErr...
+FAILED tests/test_memory.py::TestMemoryManager::test_preferences - AttributeE...
+FAILED tests/test_memory.py::TestPreferenceStore::test_typed_access - Attribu...
+FAILED tests/test_v3_1_context.py::TestV3_1Features::test_autonomous_learning_injection
+FAILED tests/test_v3_1_context.py::TestV3_1Features::test_past_history_retrieval
+FAILED tests/test_v3_1_ultimate_suite.py::TestV3_1_Ultimate::test_past_date_query_retrieval
+FAILED tests/test_v3_1_ultimate_suite.py::TestV3_1_Ultimate::test_rejection_preference_adaptation
+FAILED tests/test_v3_chaining.py::TestV3Chaining::test_math_result_chaining
+FAILED tests/test_v3_chaining.py::TestV3Chaining::test_browser_tab_tracking
+284 failed, 1785 passed in 422.62s (0:07:02)

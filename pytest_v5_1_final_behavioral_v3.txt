@@ -1,0 +1,18 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.13.2, pytest-7.4.0, pluggy-1.6.0 -- D:\Aegis\venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: D:\Aegis
+plugins: anyio-4.12.1
+collecting ... collected 9 items
+
+tests/behavioral/test_jarvis_flows.py::TestJarvisFlowsV5_1::test_direct_search_flow PASSED [ 11%]
+tests/behavioral/test_jarvis_flows.py::TestJarvisFlowsV5_1::test_notepad_type_flow PASSED [ 22%]
+tests/behavioral/test_jarvis_flows.py::TestJarvisFlowsV5_1::test_navigate_tab_flow PASSED [ 33%]
+tests/behavioral/test_jarvis_flows.py::TestJarvisFlowsV5_1::test_recovery_from_focus_failure PASSED [ 44%]
+tests/behavioral/test_jarvis_flows.py::TestJarvisFlowsV5_1::test_active_app_memory PASSED [ 55%]
+tests/behavioral/test_jarvis_flows.py::TestJarvisFlowsV5_1::test_missing_action_handler_safety PASSED [ 66%]
+tests/behavioral/test_jarvis_flows.py::TestJarvisFlowsV5_1::test_rect_property_safety PASSED [ 77%]
+tests/behavioral/test_jarvis_flows.py::TestJarvisFlowsV5_1::test_browser_new_tab PASSED [ 88%]
+tests/behavioral/test_jarvis_flows.py::TestJarvisFlowsV5_1::test_critical_action_logging PASSED [100%]
+
+============================== 9 passed in 5.88s ==============================
